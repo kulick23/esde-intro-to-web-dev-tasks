@@ -8,8 +8,7 @@
   "description": "Practical tasks for EHU EPAM Introduction to Web Dev Course",
   "main": "index.js",
   "scripts": {
-    "start:hw1": "npm run start --workspace=packages/hometask1",
-    "start:hw2": "npm run start --workspace=packages/hometask2",
+    "start:hometask-QWERy": "npm run start --workspace=packages/hometask-QWERy",
     "move": "node build.js",
     "build:series": "node build.js",
     "build": "mkdir dist && npm run build:series",

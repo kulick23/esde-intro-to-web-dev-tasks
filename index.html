@@ -1,16 +1,40 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
-</head>
-<body>
-  <h1>Home works</h1>
-  <ul>
-    {linkPlaceholder}
-  </ul>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <title>EPAM EHU Intro to Web Dev</title>
+
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body>
+    <main class="md:container md:mx-auto p-12 md:p-24 font-sans">
+      <h1>Home works</h1>
+
+      <ul>
+        {linkPlaceholder}
+      </ul>
+
+      <ul class="gap-8 columns-3xs list-none">
+        <img class="w-full aspect-square ..." src="..." />
+        <img class="w-full aspect-square ..." src="..." />
+        <!-- ... -->
+      </ul>
+    </main>
+  </body>
 </html>
