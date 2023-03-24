@@ -1,3 +1,16 @@
+/* Download font 'Open Sans' from the internet */
+/* If you'd like, you could use your own font. Please go to https://fonts.google.com/ and choose your favourite */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+/* Importing styles for mobile screens */
+@import url("./style-mobile.css");
+@import url("./style-desktop.css");
+
+/* COMMON PAGE STYLES */
 html {
+  /* Apply download font "Open Sans" by setting that on the first position in a row */
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
+  background-color: #4c3d74;
+  color: #fff;
 }

@@ -46,7 +46,7 @@ function createTaskHTMLElement(folder) {
         </div>
        
         <div class="p-8">
-          <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">
+          <div class="uppercase tracking-wide text-sm ${isHometaskFolder ? 'text-indigo-500' : 'text-orange-500'} font-semibold">
             ${isHometaskFolder ? "Home task" : "Class task"}
           </div>
           
