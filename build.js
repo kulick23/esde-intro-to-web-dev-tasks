@@ -6,10 +6,10 @@ const folders = fs
   .readdirSync("./packages")
   .filter((folder) => folder.startsWith("hometask"));
 
-var copyRecursiveSync = function (src, dest) {
-  var exists = fs.existsSync(src);
-  var stats = exists && fs.statSync(src);
-  var isDirectory = exists && stats.isDirectory();
+const copyRecursiveSync = function (src, dest) {
+  const exists = fs.existsSync(src);
+  const stats = exists && fs.statSync(src);
+  const isDirectory = exists && stats.isDirectory();
   if (isDirectory) {
     fs.mkdirSync(dest);
     fs.readdirSync(src).forEach(function (childItemName) {
@@ -23,7 +23,6 @@ var copyRecursiveSync = function (src, dest) {
   }
 };
 
-console.log(process.env.homePage);
 folders.forEach((folder) => {
   execSync(`npm run build --workspace=packages/${folder}`);
   copyRecursiveSync(`./packages/${folder}/dist/`, `./dist/${folder}`);
