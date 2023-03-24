@@ -32,9 +32,6 @@ const copyRecursiveSync = function (src, dest) {
 folders.forEach((folder) => {
   execSync(`npm run build --workspace=packages/${folder}`);
   copyRecursiveSync(`./packages/${folder}/dist/`, `./dist/${folder}`);
-
-  const taskData = tasks.find((task) => task.id === folder) ?? {};
-  copyRecursiveSync(`./packages/${folder}/${taskData.img}`, `./dist/${folder}/assets`);
 });
 
 function createTaskHTMLElement(folder) {
@@ -45,7 +42,7 @@ function createTaskHTMLElement(folder) {
     <li class="w-full max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
       <div class="md:flex">
         <div class="md:shrink-0">
-          <img class="h-48 w-full object-cover md:h-full md:w-48" src="${`./assets/${taskData.img}`}" alt="Modern building architecture">
+          <div class="h-full bg-gradient-to-r from-violet-500 to-fuchsia-500"></div>
         </div>
        
         <div class="p-8">
