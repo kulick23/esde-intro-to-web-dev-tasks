@@ -4,7 +4,7 @@ const { execSync } = require("child_process");
 
 require("dotenv").config();
 
-const tasks = require("./config/tasks");
+const { tasks } = require("./config/tasks");
 
 const folders = fs
   .readdirSync("./packages")
