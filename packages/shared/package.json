@@ -1,0 +1,28 @@
+{
+  "name": "shared",
+  "version": "1.0.0",
+  "description": "To make it easy for you to get started with GitLab, here's a list of recommended next steps.",
+  "main": "index.js",
+  "scripts": {
+    "build": "vite build --base=./",
+    "lint": "eslint -c .eslintrc ./**/*.js",
+    "lint:fix": "eslint -c .eslintrc ./**/*.js --fix",
+    "prettier": "prettier --check . --ignore-unknown --ignore-path ../../config/.prettierignore",
+    "prettier:fix": "prettier --write . --ignore-unknown --ignore-path ../../config/.prettierignore",
+    "start": "vite --host=localhost --port=8080 ./ "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/epam-ehu/intro-to-web-dev-tasks.git"
+  },
+  "author": "Andrei Kandratsenka",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint-config-esdu": "*",
+    "ts-config-esdu": "*"
+  },
+  "bugs": {
+    "url": "https://gitlab.com/epam-ehu/intro-to-web-dev-tasks/issues"
+  },
+  "homepage": "https://gitlab.com/epam-ehu/intro-to-web-dev-tasks#readme"
+}
