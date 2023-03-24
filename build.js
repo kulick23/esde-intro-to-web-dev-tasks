@@ -32,31 +32,20 @@ const copyRecursiveSync = function (src, dest) {
 folders.forEach((folder) => {
   execSync(`npm run build --workspace=packages/${folder}`);
   copyRecursiveSync(`./packages/${folder}/dist/`, `./dist/${folder}`);
+
+  const taskData = tasks.find((task) => task.id === folder) ?? {};
+  copyRecursiveSync(`./packages/${folder}/${taskData.img}`, `./dist/${folder}/assets`);
 });
 
 function createTaskHTMLElement(folder) {
   const taskData = tasks.find((task) => task.id === folder) ?? {};
   const isHometaskFolder = folder.includes("hometask");
-  const createLink = (prefix = "hometask") => {
-    // inline-flex justify-center rounded-lg text-sm font-semibold py-3 px-4 bg-slate-900 text-white hover:bg-slate-700
-    return `
-      <a 
-        href="/${process.env.homePage}/${folder}">
-        class="block mt-1 text-lg leading-tight font-medium text-black hover:underline"
-      >
-        Home task ${folder.replace(prefix, "")}
-      </a>
-    `;
-  };
-  const createImgSrc = () => {
-    return `/packages/${folder}/${taskData.img}`
-  }
 
   return `
-    <li class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+    <li class="w-full max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
       <div class="md:flex">
         <div class="md:shrink-0">
-          <img class="h-48 w-full object-cover md:h-full md:w-48" src="${createImgSrc()}" alt="Modern building architecture">
+          <img class="h-48 w-full object-cover md:h-full md:w-48" src="${`./assets/${taskData.img}`}" alt="Modern building architecture">
         </div>
        
         <div class="p-8">
@@ -64,13 +53,16 @@ function createTaskHTMLElement(folder) {
             ${isHometaskFolder ? "Home task" : "Class task"}
           </div>
           
-          ${createLink(isHometaskFolder && "classtask")}
+          <a 
+            href="/${process.env.homePage}/${folder}"
+            class="block mt-1 text-lg leading-tight font-medium text-black hover:underline"
+          >
+            ${folder.replace(isHometaskFolder ? "hometask" : "classtask", "")}
+          </a>
           
           <p class="mt-2 text-slate-500">
             ${taskData.description}
           </p>
-
-
         </div>
       </div>
     </li>
