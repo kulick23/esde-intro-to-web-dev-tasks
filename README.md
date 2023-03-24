@@ -1,0 +1,184 @@
+# Intro to Web Dev Tasks
+
+A repository containing tasks for EPAM EHU course Introduction to Web Dev
+
+[[_TOC_]]
+
+## Project structure
+
+`packages/` folder contains all tasks, i.e `packages/hometask-QWERy` contains a task dedicated to QWERy project
+
+## How to work with tasks
+
+### Fork current repository into your Gitlab account
+
+- Login into your Gitlab account (the same you've used for Autocode)
+- In browser navigate to https://gitlab.com/epam-ehu/intro-to-web-dev-tasks
+- In top right corner click on `Fork` white button
+- You will be redirected to the page https://gitlab.com/epam-ehu/intro-to-web-dev-tasks/-/forks/new
+- In `Project url` section click on a dropdown `Select namespace` and choose any namespace you would like to (i.e the same as your gitlab name)
+- Select `Visibilty level`
+  - `Private` - you repository will be hidden from public
+  - `Public` - your repository will be opened for other people
+- Click on blue button `Fork project`
+
+### Install locally
+
+1. In Gitlab navigate to your repositories, click on **Practical Tasks** repository and click on blue button `Clone`.
+2. In dropdown find section **Clone with SSH** and copy that url git@gitlab.com:...git
+3. In console on your machine navigate to any folder you like and paste copied url after git clone: `git clone git@gitlab...intro-to-web-dev-tasks.git`
+4. Type in yes if console asks you about fingerprint
+5. After cloning is done, in console type in `cd intro-to-web-dev-tasks` and click Enter
+6. Now you should be in a folder `intro-to-web-dev-tasks`
+7. In console type in `git config user.name "Name Surname"` where Name is your Name (same as on Gitlab profile) and Surname is your Surname (same as on Gitlab profile). **Your name should be written in English**. **Don't remove " " symbols**
+8. In console type in `git config user.email youremailaddress@email.com` where `youremailaddress@email.com` is your address you used to register on Gitlab (the same as on Gitlab profile)
+9. In console type in `git config user.name` and click Enter. You should see your name
+10. In console type in `git config user.email` and click Enter. You should see your email address
+
+### Install JavaScript packages
+
+After you've cloned repository onto your local machine, you need to install necessary JavaScript packages.
+
+1. In console navigate to the folder where you cloned you repository to (`cd intro-to-web-dev-tasks`)
+2. Now you should be in a folder `intro-to-web-dev-tasks`
+3. In console type in the command `npm install` and click Enter
+4. Wait for packages to be installed
+5. In console type in `dir` on Windows or `ls` on MacOS, click Enter and verify there's a folder named `node_modules` exists
+6. It it's so, you're done
+
+### Configuring VSCode IDE
+
+1. Install ESLint extention `Ctrl/Cmd +Shift + X` then type in search string eslint and select one
+2. Install Prettier extention the same way
+3. Configure IDE for autoformat on file save `Ctrl/Cmd +Shift + P`
+   type in search string - `settings`
+   select Preferences: Open User Settings (JSON)
+   replace with `
+   {
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.codeActionsOnSave": {
+            "source.fixAll": true
+        },
+        "editor.formatOnSave": true
+    }
+}`
+
+### Rules for commit
+
+Please follow these rules to give a proper name to your commits.
+
+Commit message common pattern: `{feat|fix}(ESDU-{taskNumber}): {body of a commit message}`
+
+If you're adding a new code/solution/etc, please consider that as `feat` - feature. {taskNumber} - that's your module number (01 - for environment setup, 02 - for data types, etc). For example:
+
+```
+feat(ESDU-02): add data types solution
+feat(ESDU-06): add solution passing half tests
+feat(ESDU-02): add data types final solution
+```
+
+If you're fixin some issue for already pushed code/solution/etc, please consider that as `fix` - a bugfix or just a fix. {taskNumber} - that's your module number (01 - for environment setup, 02 - for data types, etc). For example:
+
+```
+fix(ESDU-05): fix sum function params naming
+fix(ESDU-11): fix lint issues
+fix(ESDU-07): fix
+```
+
+### Running by simply opening index.html in browser
+
+- Open package with a task you would like to work with i.e `packages/hometask-QWERy`
+- Open file `index.html` in browser
+  - In Visual Studio Code right click on index.html -> Copy Path
+  - Open browser and paste copied path as an url (i.e `D://Proejcts/intro-to-web-dev-tasks/packages/classtask-YuliaVorman/index.html`)
+- Enjoy
+
+Why not to use that approach - every time you're making changes you have to reload your page manually
+
+Why to use - simply you don't want to deal with NPM and JavaScript or there might be any issues currently with it
+
+### Running using NPM and JavaScript (Preferred)
+
+- Open console
+- In console navigate to the project root (`./intro-to-web-dev-tasks`)
+- Run `npm install`
+- Navigate to the task i.e `cd packages/classtask-YuliaVorman`
+- Run `npm run serve`
+- Open browser
+- Navigate to `http://localhost:8080/`
+- Enjoy
+
+Why to use - every time you make a change your page is automatically reloaded and your changes applied
+
+Why not to use - you don't want to deal with NPM and JavaScript or there might be any issues currently with it
+
+## How to get new tasks into your repository
+
+### One-time installation step
+
+Please add remote branch linking into your local git
+
+#### Console
+
+To do this, please in console run commands
+
+```
+git remote rm upstream
+
+git remote add upstream git@gitlab.com:epam-ehu/intro-to-web-dev-tasks.git
+```
+
+#### Visual Studio Code
+
+In Source Control menu click on three dots -> Remote -> Add remote -> Paste git@gitlab.com:epam-ehu/intro-to-web-dev-tasks.git -> Enter upstream
+
+**NOTE** You might need to remove previously created upstream. In Source Control menu click on three dots -> Remote -> Remove remote -> upstream.
+
+### How to start solving new tasks (get new branches into your Git)
+
+#### Console
+
+When the linking is created (see instructions above), run command `git fetch upstream` to get a new branch with tasks.
+
+Type `git branch -a` to ensure you see in a list lines like `remotes/upstream/tasks-...`.
+
+Assuming the new branch (with new tasks you haven't solved yet) is `tasks-02-simple-tasks`.
+
+Type `git switch tasks-02-simple-tasks`. If you see two messages
+
+```
+Branch 'tasks-02-simple-tasks' set up to track remote branch 'tasks-02-simple-tasks' from 'upstream'
+Switched to a new branch 'tasks-02-simple-tasks'
+```
+
+Then you did it correctly.
+
+Now the next step is to publish that branch into your Git repositry (origin). Run command `git push -u origin`. You should see a list of messages containing that line:
+
+```
+...
+To gitlab.com:YOUR_NAME/intro-to-web-dev-tasks.git
+* [new branch]     tasks-02-simple-tasks -> tasks-02-simple-tasks
+...
+```
+
+You're done, now you could write solutions for your task.
+
+#### Visual Studio Code
+
+Now when the linking is created, In Source Control menu click on three dots -> Pull, Push -> Fetch From All Remotes menu item to get a new branch with tasks.
+
+Then checkout/switch to that branch (`upstream/tasks-...`)
+
+Now you could create your solution locally.
+
+To prepare for Autocode submit please push your local branch into your repository. In Source Control menu click on three dots -> Pull, Push -> Push to... -> Select **origin (not upstream)**
+
+### How to get tasks updates
+
+#### Console
+
+Sometimes there are improvements in already published tasks. To get new changes from upstream repository you should use `git pull` command.
+
+For example, let's assume there are some updated in `upstream/tasks-02-simple-tasks` branch. Run in console `git pull upstream tasks-02-simple-tasks` to pull recent changes from remote branch into your local repository.
