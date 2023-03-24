@@ -17,24 +17,24 @@ Please be flexible and do not stick completly to design in these cases:
 Maximum score - 10 consists of:
 
 - Section "Discover wonderful Indonesia" - maximum score 3
-  - Used image as background (like in design) - 1
-  - Used Header (QWERy, Information, ..., Search) - 0.5
-  - Used Follow us and social icons - 0.5
-  - Used main heading, scroll down element (without any interactive logic) and Explore the nature beauty orange label - 1
+  - [ ] Used image as background (like in design) - 1
+  - [ ] Used Header (QWERy, Information, ..., Search) - 0.5
+  - [ ] Used Follow us and social icons - 0.5
+  - [ ] Used main heading, scroll down element (without any interactive logic) and Explore the nature beauty orange label - 1
 - Section "Have you enjoyed your holiday?" - maximum score 1
-  - Used image on the left - 0.5
-  - Used text content on the right - 0.5
+  - [ ] Used image on the left - 0.5
+  - [ ] Used text content on the right - 0.5
 - Section "Steady your steps" - maximum score 1
-  - Used image as background - 0.5
-  - Used texts - 0.5
+  - [ ] Used image as background - 0.5
+  - [ ] Used texts - 0.5
 - Section "Our culture..." - maximum score 1
-  - Used image on the right - 0.5
-  - Used text content on the left - 0.5
+  - [ ] Used image on the right - 0.5
+  - [ ] Used text content on the left - 0.5
 - Footer - maximum score 4
-  - Used a row with "QWERy" and "Ready to explore" with Button "Get started" - 1
-  - Used "Let's go on vacation, Make your day" and email address with button - 1
-  - Used three columns with Services, About and Help - 1
-  - Used a row with "Terms Conditions", social media links and a row with Copyright text - 1
+  - [ ] Used a row with "QWERy" and "Ready to explore" with Button "Get started" - 1
+  - [ ] Used "Let's go on vacation, Make your day" and email address with button - 1
+  - [ ] Used three columns with Services, About and Help - 1
+  - [ ] Used a row with "Terms Conditions", social media links and a row with Copyright text - 1
 
 No code requirements are specified and be evaluated. Write code as you want to. On our code review we will reveal all possible mistakes and share solutions and best practices
 
