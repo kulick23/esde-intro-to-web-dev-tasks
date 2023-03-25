@@ -8,6 +8,22 @@ A repository containing tasks for EPAM EHU course Introduction to Web Dev
 
 `packages/` folder contains all tasks, i.e `packages/hometask-QWERy` contains a task dedicated to QWERy project
 
+## Tasks preview
+
+Home tasks and Class tasks preview is available here https://epam-ehu.gitlab.io/intro-to-web-dev-tasks/
+
+### How to configure the same for your forker repo
+
+First follow the instructions below in order to fork current repository into your own account
+
+Then you have to configure CI/CD pipeline. To do so, please navigate to your forked repo, go to Settings --> CI/CD (the link is something like https://gitlab.com/epam-ehu/intro-to-web-dev-tasks/-/settings/ci_cd) --> Runners section (click Expand button) --> Shared runners section --> Turn on the switcher called Enable shared runners for this project
+
+NOTE: Gitlab might request from your account validation using your credit card. You won't be chared, this is just a validation to avoid spammers/scammers/other viral activities
+
+After this step is done, please go to Settings --> Pages --> Inside the section "Your pages are served under:" there's a link to your web app with all tasks preview (i.e. https://epam-ehu.gitlab.io/intro-to-web-dev-tasks) 
+
+This web app is being automatically updated on every push to origin/master branch. The status is visible inside CI/CD --> Pipelines section (https://gitlab.com/epam-ehu/intro-to-web-dev-tasks/-/pipelines). If you see your commit name inside a Pipeline column and green status button Passed in a Status column - your web app has been deployed successfully. Otherwise click on status button, observe build errors and fix them in a separate commit
+
 ## How to work with tasks
 
 ### Fork current repository into your Gitlab account
