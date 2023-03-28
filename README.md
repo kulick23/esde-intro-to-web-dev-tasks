@@ -6,21 +6,23 @@ A repository containing tasks for EPAM EHU course Introduction to Web Dev
 
 ## Project structure
 
-`packages/` folder contains all tasks, i.e `packages/hometask-QWERy` contains a task dedicated to QWERy project
+`packages/` folder contains all tasks, i.e. `packages/hometask-QWERy` contains a task dedicated to QWERy project
 
 ## Tasks preview
 
 Home tasks and Class tasks preview is available here https://epam-ehu.gitlab.io/intro-to-web-dev-tasks/
 
-### How to configure the same for your forker repo
+### How to configure the same for your forked repo
 
 First follow the instructions below in order to fork current repository into your own account
 
 Then you have to configure CI/CD pipeline. To do so, please navigate to your forked repo, go to Settings --> CI/CD (the link is something like https://gitlab.com/epam-ehu/intro-to-web-dev-tasks/-/settings/ci_cd) --> Runners section (click Expand button) --> Shared runners section --> Turn on the switcher called Enable shared runners for this project
 
-NOTE: Gitlab might request from your account validation using your credit card. You won't be chared, this is just a validation to avoid spammers/scammers/other viral activities
+NOTE: Gitlab might request from your account validation using your credit card. You won't be billed for this action, this is just a validation to avoid spammers/scammers/other viral activities
 
-After this step is done, please go to Settings --> Pages --> Inside the section "Your pages are served under:" there's a link to your web app with all tasks preview (i.e. https://epam-ehu.gitlab.io/intro-to-web-dev-tasks) 
+While on origin/master branch save, commit, and push any change to your repository.
+
+After this step is done, please go to Settings --> Pages --> Inside the section "Your pages are served under:" there's a link to your web app with all tasks preview (i.e. https://epam-ehu.gitlab.io/intro-to-web-dev-tasks). If this path is not visible, select Deployments --> Pages
 
 This web app is being automatically updated on every push to origin/master branch. The status is visible inside CI/CD --> Pipelines section (https://gitlab.com/epam-ehu/intro-to-web-dev-tasks/-/pipelines). If you see your commit name inside a Pipeline column and green status button Passed in a Status column - your web app has been deployed successfully. Otherwise click on status button, observe build errors and fix them in a separate commit
 
@@ -32,7 +34,7 @@ This web app is being automatically updated on every push to origin/master branc
 - In browser navigate to https://gitlab.com/epam-ehu/intro-to-web-dev-tasks
 - In top right corner click on `Fork` white button
 - You will be redirected to the page https://gitlab.com/epam-ehu/intro-to-web-dev-tasks/-/forks/new
-- In `Project url` section click on a dropdown `Select namespace` and choose any namespace you would like to (i.e the same as your gitlab name)
+- In `Project url` section click on a dropdown `Select namespace` and choose any namespace you would like to (i.e. the same as your Gitlab name)
 - Select `Visibilty level`
   - `Private` - you repository will be hidden from public
   - `Public` - your repository will be opened for other people
@@ -40,7 +42,7 @@ This web app is being automatically updated on every push to origin/master branc
 
 ### Install locally
 
-1. In Gitlab navigate to your repositories, click on **Practical Tasks** repository and click on blue button `Clone`.
+1. In Gitlab navigate to your projects, click on **intro-to-web-dev-tasks** project --> Repository and click on blue button `Clone`.
 2. In dropdown find section **Clone with SSH** and copy that url git@gitlab.com:...git
 3. In console on your machine navigate to any folder you like and paste copied url after git clone: `git clone git@gitlab...intro-to-web-dev-tasks.git`
 4. Type in yes if console asks you about fingerprint
@@ -55,7 +57,7 @@ This web app is being automatically updated on every push to origin/master branc
 
 After you've cloned repository onto your local machine, you need to install necessary JavaScript packages.
 
-1. In console navigate to the folder where you cloned you repository to (`cd intro-to-web-dev-tasks`)
+1. In console navigate to the folder where you cloned your repository to (`cd intro-to-web-dev-tasks`)
 2. Now you should be in a folder `intro-to-web-dev-tasks`
 3. In console type in the command `npm install` and click Enter
 4. Wait for packages to be installed
@@ -64,8 +66,8 @@ After you've cloned repository onto your local machine, you need to install nece
 
 ### Configuring VSCode IDE
 
-1. Install ESLint extention `Ctrl/Cmd +Shift + X` then type in search string eslint and select one
-2. Install Prettier extention the same way
+1. Install ESLint extension `Ctrl/Cmd +Shift + X` then type in search string eslint and select one
+2. Install Prettier extension the same way
 3. Configure IDE for autoformat on file save `Ctrl/Cmd +Shift + P`
    type in search string - `settings`
    select Preferences: Open User Settings (JSON)
@@ -86,20 +88,18 @@ Please follow these rules to give a proper name to your commits.
 
 Commit message common pattern: `{feat|fix}(ESDU-{taskNumber}): {body of a commit message}`
 
-If you're adding a new code/solution/etc, please consider that as `feat` - feature. {taskNumber} - that's your module number (01 - for environment setup, 02 - for data types, etc). For example:
+If you're adding a new code/solution/etc, please consider that as `feat` - feature. {taskNumber} - that's your module number (01 - for QWERy hometask, etc). For example:
 
 ```
-feat(ESDU-02): add data types solution
-feat(ESDU-06): add solution passing half tests
-feat(ESDU-02): add data types final solution
+feat(ESDU-01): add initial markup
+feat(ESDU-01): add markup for header
+feat(ESDU-02): add markup for footer
 ```
 
-If you're fixin some issue for already pushed code/solution/etc, please consider that as `fix` - a bugfix or just a fix. {taskNumber} - that's your module number (01 - for environment setup, 02 - for data types, etc). For example:
+If you're fixing some issue for already pushed code/solution/etc, please consider that as `fix` - a bugfix or just a fix. {taskNumber} - that's your module number (01 - for QWERy hometask, etc). For example:
 
 ```
-fix(ESDU-05): fix sum function params naming
-fix(ESDU-11): fix lint issues
-fix(ESDU-07): fix
+fix(ESDU-01): fix header layout
 ```
 
 ### Running by simply opening index.html in browser
@@ -107,7 +107,7 @@ fix(ESDU-07): fix
 - Open package with a task you would like to work with i.e `packages/hometask-QWERy`
 - Open file `index.html` in browser
   - In Visual Studio Code right click on index.html -> Copy Path
-  - Open browser and paste copied path as an url (i.e `D://Proejcts/intro-to-web-dev-tasks/packages/classtask-YuliaVorman/index.html`)
+  - Open browser and paste copied path as an url (i.e. `D://Proejcts/intro-to-web-dev-tasks/packages/classtask-YuliaVorman/index.html`)
 - Enjoy
 
 Why not to use that approach - every time you're making changes you have to reload your page manually
@@ -118,11 +118,10 @@ Why to use - simply you don't want to deal with NPM and JavaScript or there migh
 
 - Open console
 - In console navigate to the project root (`./intro-to-web-dev-tasks`)
-- Run `npm install`
-- Navigate to the task i.e `cd packages/classtask-YuliaVorman`
+- Run `npm install` if you didn't install packages earlier
+- Navigate to the task i.e. `cd packages/classtask-YuliaVorman`
 - Run `npm run serve`
-- Open browser
-- Navigate to `http://localhost:8080/`
+- Either click the link in the console or open browser and navigate to `http://localhost:8080/`
 - Enjoy
 
 Why to use - every time you make a change your page is automatically reloaded and your changes applied
@@ -170,7 +169,7 @@ Switched to a new branch 'tasks-02-simple-tasks'
 
 Then you did it correctly.
 
-Now the next step is to publish that branch into your Git repositry (origin). Run command `git push -u origin`. You should see a list of messages containing that line:
+Now the next step is to publish that branch into your Git repository (origin). Run command `git push -u origin`. You should see a list of messages containing that line:
 
 ```
 ...
