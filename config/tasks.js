@@ -15,6 +15,12 @@ module.exports.tasks = [
     id: "classtask-Humankind",
     type: "classtask",
     title: "Humantind",
-    description: "A Humankind beauty landing page"
-  }
+    description: "A Humankind beauty landing page",
+  },
+  {
+    id: "classtask-workshop-27-03",
+    type: "classtask",
+    title: "HR Workshop-27-03",
+    description: "Workshop on March 27th for HR students",
+  },
 ];
