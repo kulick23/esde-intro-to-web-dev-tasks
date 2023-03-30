@@ -11,4 +11,10 @@ module.exports.tasks = [
     title: "YuliaVorman",
     description: "Langing page to advertice Yulia Vorman Beauty Masterclasses",
   },
+  {
+    id: "classtask-Humankind",
+    type: "classtask",
+    title: "Humantind",
+    description: "A Humankind beauty landing page"
+  }
 ];
