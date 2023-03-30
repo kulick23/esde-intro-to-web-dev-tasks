@@ -1,0 +1,16 @@
+.sprites {
+    background-image: url('/assets/css_sprites.png');
+}
+.bg-sun {
+    width: 296px; height: 171px;
+    background-position: -10px -10px;
+}
+.bg-instagram {
+    width: 298px; height: 169px;
+    background-position:  -326px -10px;
+}
+
+.bg-telegram {
+    width: 225px; height: 225px;
+    background-position: -10px -201px;
+}

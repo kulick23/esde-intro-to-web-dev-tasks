@@ -1,0 +1,26 @@
+@import url('./sprites.css');
+html {
+  font-size: 16px;
+}
+
+
+.image {
+  width: 200px;
+  height: 300px;
+  margin: 0 auto;
+  border: 10px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.bg-img {
+  background: center/contain no-repeat url('/assets/grey-kitten.webp');
+  /* background-size: cover;
+  background-position: 50% 50%; */
+}
