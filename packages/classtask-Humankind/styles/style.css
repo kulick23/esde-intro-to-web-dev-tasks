@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap");
+
+/* Root styles like fonts and colors (because they are being inherited to children elements */
+html {
+  font-size: 16px;
+  font-family: "Roboto", "Open Sans", sans-serif;
+  color: #006450;
+  background-color: #ffffff;
+}
+
+body {
+  height: 100%;
+}
+
+/* common class to be used on different elements */
+.container {
+  /* setting content max width to make it looker beautier on large screens */
+  max-width: 1440px;
+  /* centerting content horizontally without flex or etc */
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+}
+
+.nav-list {
+  /* Reduce ul styles */
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+
+  /* setting children in a row (flex-direction: row; by default) */
+  display: flex;
+}
+
+/* for all elements inside ul apply margin-right but not for the last one */
+.nav-list li:not(:last-child) {
+  margin-right: 2rem;
+}
+
+.logo {
+  color: #00c08b;
+}
+
+.hero {
+  /* 100vh - screen view area height  */
+  /* 64px - header height */
+  min-height: calc(80vh - 64px - 4rem);
+
+  /* fallback background color */
+  background-color: black;
+  background-image: url("../assets/images/hero-bg.png");
+  /* tells browser not to repeat image just use it once */
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* place an image in center for both X and Y crosses  */
+  background-position: center center;
+
+  /* shifting inner content */
+  padding: 8rem 1.5rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+
+  /* need for rectangles to be positioned absolute inside particular that container */
+  position: relative;
+}
+
+.hero h1 {
+  margin: 0 0 1rem;
+  color: white;
+  font-weight: normal;
+}
+
+.hero .cta-btn {
+  background: #e1ff32;
+  border: none;
+  /* padding top and bottom will be set by line-height property */
+  padding: 0 3.5rem;
+
+  font-size: 1.125rem;
+  line-height: 4rem;
+  /* letter-spacing is used to specify a horizontal space between letters */
+  letter-spacing: 0.025rem;
+}
+
+hr {
+  border: 0.125rem solid #006450;
+}
+
+.box {
+  text-align: center;
+}
+
+.box h2 {
+  margin: 5.25rem 26rem 6.75rem;
+  font-size: 2.25rem;
+  line-height: 2.75rem;
+  letter-spacing: 0.125rem;
+}
+
+.rectangle-list-container {
+  /* inside .hero don't forget to define position: relative */
+  position: absolute;
+  right: 1.625rem;
+  bottom: 1.625rem;
+}
+
+.rectangle-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+
+  display: flex;
+}
+
+.rectangle {
+  /* draw a rectangle fully by CSS */
+  height: 0.75rem;
+  width: 0.75rem;
+  border: 1px solid white;
+}
+
+.rectangle--active {
+  background-color: white;
+}
+
+.rectangle:not(:last-child) {
+  margin-right: 0.5rem;
+}
+
+.footer {
+  height: 64px;
+  text-align: center;
+  font-size: 2rem;
+}
