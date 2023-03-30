@@ -21,6 +21,12 @@ module.exports.tasks = [
     id: "classtask-workshop-27-03",
     type: "classtask",
     title: "HR Workshop-27-03",
-    description: "Workshop on March 27th for HR students",
+    description: "Workshop on March 27th for HR students (positions, z-index)",
+  },
+  {
+    id: "classtask-workshop-30-03",
+    type: "classtask",
+    title: "HR Workshop-30-03",
+    description: "Workshop on March 30th for HR students (images, sprites)",
   },
 ];
