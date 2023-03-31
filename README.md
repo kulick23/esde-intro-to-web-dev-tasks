@@ -12,20 +12,6 @@ A repository containing tasks for EPAM EHU course Introduction to Web Dev
 
 Home tasks and Class tasks preview is available here https://epam-ehu.gitlab.io/intro-to-web-dev-tasks/
 
-### How to configure the same for your forked repo
-
-First follow the instructions below in order to fork current repository into your own account
-
-Then you have to configure CI/CD pipeline. To do so, please navigate to your forked repo, go to Settings --> CI/CD (the link is something like https://gitlab.com/epam-ehu/intro-to-web-dev-tasks/-/settings/ci_cd) --> Runners section (click Expand button) --> Shared runners section --> Turn on the switcher called Enable shared runners for this project
-
-NOTE: Gitlab might request from your account validation using your credit card. You won't be billed for this action, this is just a validation to avoid spammers/scammers/other viral activities
-
-While on origin/master branch save, commit, and push any change to your repository.
-
-After this step is done, please go to Settings --> Pages --> Inside the section "Your pages are served under:" there's a link to your web app with all tasks preview (i.e. https://epam-ehu.gitlab.io/intro-to-web-dev-tasks). If this path is not visible, select Deployments --> Pages
-
-This web app is being automatically updated on every push to origin/master branch. The status is visible inside CI/CD --> Pipelines section (https://gitlab.com/epam-ehu/intro-to-web-dev-tasks/-/pipelines). If you see your commit name inside a Pipeline column and green status button Passed in a Status column - your web app has been deployed successfully. Otherwise click on status button, observe build errors and fix them in a separate commit
-
 ## How to work with tasks
 
 ### Fork current repository into your Gitlab account
@@ -197,3 +183,18 @@ To prepare for Autocode submit please push your local branch into your repositor
 Sometimes there are improvements in already published tasks. To get new changes from upstream repository you should use `git pull` command.
 
 For example, let's assume there are some updated in `upstream/tasks-02-simple-tasks` branch. Run in console `git pull upstream tasks-02-simple-tasks` to pull recent changes from remote branch into your local repository.
+
+
+## Configure Task Preview for your forked repository
+
+First follow the instructions below in order to fork current repository into your own account
+
+Then you have to configure CI/CD pipeline. To do so, please navigate to your forked repo, go to Settings --> CI/CD (the link is something like https://gitlab.com/epam-ehu/intro-to-web-dev-tasks/-/settings/ci_cd) --> Runners section (click Expand button) --> Shared runners section --> Turn on the switcher called Enable shared runners for this project
+
+NOTE: Gitlab might request from your account validation using your credit card. You won't be billed for this action, this is just a validation to avoid spammers/scammers/other viral activities
+
+While on origin/master branch save, commit, and push any change to your repository.
+
+After this step is done, please go to Settings --> Pages --> Inside the section "Your pages are served under:" there's a link to your web app with all tasks preview (i.e. https://epam-ehu.gitlab.io/intro-to-web-dev-tasks). If this path is not visible, select Deployments --> Pages
+
+This web app is being automatically updated on every push to origin/master branch. The status is visible inside CI/CD --> Pipelines section (https://gitlab.com/epam-ehu/intro-to-web-dev-tasks/-/pipelines). If you see your commit name inside a Pipeline column and green status button Passed in a Status column - your web app has been deployed successfully. Otherwise click on status button, observe build errors and fix them in a separate commit
