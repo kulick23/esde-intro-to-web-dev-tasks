@@ -45,20 +45,24 @@
         </div>
       </header>
 
-      <section class="hero container">
-        <h1>
+      <section class="hero box container">
+        <h1 class="hero__title">
           Our best-selling refillable deodorant, in a new scent for summer.
           <br />
           Shop Lemongrass
         </h1>
 
-        <button class="cta-btn">Shop Now</button>
+        <button class="hero__btn">Shop Now</button>
 
-        <aside class="rectangle-list-container">
-          <ul class="rectangle-list">
-            <li class="rectangle"></li>
-            <li class="rectangle rectangle--active rectangle--empasised"></li>
-            <li class="rectangle"></li>
+        <aside class="rectangle-list">
+          <ul class="rectangle-list__list">
+            <li class="rectangle-list__list-item"></li>
+            <li
+              class="rectangle-list__list-item rectangle-list__list-item--disabled"
+            ></li>
+            <li
+              class="rectangle-list__list-item rectangle-list__list-item--active"
+            ></li>
           </ul>
         </aside>
       </section>
@@ -69,6 +73,75 @@
           Designed to reduce single-use plastic waste in your daily routine.
           Scientifically-proven to perform.
         </h2>
+      </section>
+
+      <section class="grid-row container">
+        <div class="grid-col">
+          <article class="product">
+            <div class="product__content">
+              <h3 class="product__title">shower routine set - $54</h3>
+
+              <p class="product__description">
+                All natural shampoo, formulated to nourish your hair. Get $26
+                off.
+              </p>
+            </div>
+
+            <button class="product__button">Quick Add</button>
+
+            <img
+              class="product__image"
+              src="./assets/images/product-01.png"
+              alt="Summer Routine Set product image"
+            />
+          </article>
+        </div>
+
+        <div class="grid-col">
+          <article class="product">
+            <div class="product__content">
+              <h3 class="product__title">Summer Routine Set - $46</h3>
+
+              <p class="product__description">
+                Best sellers that are great for travel, including Deodorant. Get
+                $15 off.
+              </p>
+            </div>
+
+            <button class="product__button">Quick Add</button>
+
+            <img
+              class="product__image"
+              src="./assets/images/product-02.png"
+              alt="Summer Routine Set product image"
+            />
+          </article>
+        </div>
+
+        <div class="grid-col">
+          <article class="product">
+            <div class="product__content">
+              <h3 class="product__title">Dental Routine Set - $36</h3>
+
+              <p class="product__description">
+                Toothpaste, mouthwash, and floss formulate designed for a
+                healthy planet. Get $9 off.
+              </p>
+            </div>
+
+            <button class="product__button">Quick Add</button>
+
+            <img
+              class="product__image"
+              src="./assets/images/product-02.png"
+              alt="Summer Routine Set product image"
+            />
+          </article>
+        </div>
+
+        <div class="grid-col">
+          <h2>Get early access to new products by signing up for bH texts.</h2>
+        </div>
       </section>
 
       <footer class="footer">
