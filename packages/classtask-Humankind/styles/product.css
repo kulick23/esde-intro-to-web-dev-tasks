@@ -1,0 +1,84 @@
+.product {
+  height: 620px;
+  width: 620px;
+
+  background-color: bisque;
+  /* background-image: url("../assets/images/product-02.png"); */
+  /* tells browser not to repeat image just use it once */
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  /* place an image in center for both X and Y crosses  */
+  /* background-position: center center; */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  /* need for rectangles to be positioned absolute inside particular that container */
+  position: relative;
+}
+
+.product__content {
+  z-index: 2;
+}
+
+.product__title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  /* identical to box height, or 122% */
+
+  text-align: center;
+  letter-spacing: 0.4px;
+  text-transform: lowercase;
+
+  color: #fffaef;
+}
+
+.product__description {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 26px;
+  /* identical to box height, or 108% */
+
+  text-align: center;
+  letter-spacing: 0.4px;
+
+  color: #fffaef;
+}
+
+.product__image {
+  object-fit: cover;
+  object-position: top;
+  max-width: 100%;
+  max-height: 100%;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.product__button {
+  background: #e1ff32;
+  border: none;
+  /* padding top and bottom will be set by line-height property */
+  padding: 0 3.5rem;
+
+  font-size: 1.125rem;
+  line-height: 4rem;
+  /* letter-spacing is used to specify a horizontal space between letters */
+  letter-spacing: 0.025rem;
+
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  
+  z-index: 2;
+}
