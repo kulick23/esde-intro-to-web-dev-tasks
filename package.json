@@ -8,13 +8,16 @@
   "description": "Practical tasks for EHU EPAM Introduction to Web Dev Course",
   "main": "index.js",
   "scripts": {
-    "start:hometask-QWERy": "npm run start --workspace=packages/hometask-QWERy",
+    "serve:hometask-QWERy": "npm run start --workspace=packages/hometask-QWERy",
+    "serve:classtask-Humankind": "npm run start --workspace=packages/classtask-Humankind",
+    "serve:classtask-workshop-27-03": "npm run start --workspace=packages/classtask-workshop-27-03",
+    "serve:classtask-YuliaVorman": "npm run start --workspace=packages/classtask-YuliaVorman",
     "move": "node build.js",
     "build:series": "node build.js",
     "build": "mkdir dist && npm run build:series",
     "prepare": "husky install ./.husky",
-    "start": "vite --host=localhost --port=8080 ./ ",
-    "start:local": "vite preview --host=localhost --port=8080"
+    "serve": "vite --host=localhost --port=8080 ./ ",
+    "serve:local": "vite preview --host=localhost --port=8080"
   },
   "repository": {
     "type": "git",

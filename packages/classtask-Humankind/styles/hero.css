@@ -1,0 +1,42 @@
+.hero {
+  /* 100vh - screen view area height  */
+  /* 64px - header height */
+  min-height: calc(80vh - 64px - 4rem);
+
+  /* fallback background color */
+  background-color: black;
+  background-image: url("../assets/images/hero-bg.png");
+  /* tells browser not to repeat image just use it once */
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* place an image in center for both X and Y crosses  */
+  background-position: center center;
+
+  /* shifting inner content */
+  padding: 8rem 1.5rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+
+  /* need for rectangles to be positioned absolute inside particular that container */
+  position: relative;
+}
+
+.hero .hero__title {
+  margin: 0 0 1rem;
+  color: white;
+  font-weight: normal;
+}
+
+.hero .hero__btn {
+  background: #e1ff32;
+  border: none;
+  /* padding top and bottom will be set by line-height property */
+  padding: 0 3.5rem;
+
+  font-size: 1.125rem;
+  line-height: 4rem;
+  /* letter-spacing is used to specify a horizontal space between letters */
+  letter-spacing: 0.025rem;
+}

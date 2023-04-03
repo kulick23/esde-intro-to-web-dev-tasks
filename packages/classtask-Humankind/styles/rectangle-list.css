@@ -1,0 +1,32 @@
+.rectangle-list {
+  position: absolute;
+  right: 1.625rem;
+  bottom: 1.625rem;
+}
+
+.rectangle-list__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+
+  display: flex;
+}
+
+.rectangle-list__list-item {
+  height: 0.75rem;
+  width: 0.75rem;
+  border: 1px solid white;
+}
+
+.rectangle-list__list-item:not(:last-child) {
+  margin-right: 0.5rem;
+}
+
+.rectangle-list__list-item--active {
+  background-color: white;
+}
+
+.rectangle-list__list-item--disabled {
+  background-color: grey;
+  border: 1px solid grey;
+}

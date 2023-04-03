@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap");
 
+@import url("./grid.css");
+@import url("./hero.css");
+@import url("./rectangle-list.css");
+@import url("./product.css");
 /* Root styles like fonts and colors (because they are being inherited to children elements */
 html {
   font-size: 16px;
