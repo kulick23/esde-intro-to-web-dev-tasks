@@ -20,14 +20,29 @@
   /* Why not to use .hero .about .heading? Based on the comments above it's recommened to do so. */
   /* You can use .hero .about .heading.  */
   /* However our .about section is an article tag. This tag represents a complete, or self-contained, composition in a document. Meaning if we move that ourside .hero, nothing should change. That's why we are defining styles for .about, not for .hero .about. If in future we need to adjust styles only for article within .hero section or another one, we will specify a class/tag/wharever before .about class. */
-  .about .heading {
+  .hero .about {
+    text-align: left;
+  }
+
+  .hero .about .heading {
     font-size: 50px;
     line-height: 66px;
     text-shadow: 0px 0px 10px #a387c4;
     margin: 0 0 20px 0;
   }
 
-  .about ul.achievements {
+  .hero .about .subheading {
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  .hero .about p {
+    font-size: 22px;
+    line-height: 30px;
+    margin: 0 0 44px;
+  }
+
+  .hero .about ul.achievements {
     display: flex;
     /* Because our achievements in HTML is based on <ul> element, we are overriding default <ul> rules like list-style-type (bullets on the left side) and margin/padding */
     list-style-type: none;
@@ -35,7 +50,7 @@
     padding: 0;
   }
 
-  .about ul.achievements li h2 {
+  .hero .about ul.achievements li h2 {
     font-size: 50px;
     line-height: 66px;
   }
@@ -45,8 +60,12 @@
   /* :not(selector) - Selects every element that is not a "selector" element - https://www.w3schools.com/cssref/sel_not.php */
   /* :last-child	li:last-child	- Selects every <li> elements that is the last child of its parent */
   /* Full list of pseudo classes https://www.w3schools.com/css/css_pseudo_classes.asp */
-  .about ul.achievements li:not(:last-child) {
+  .hero .about ul.achievements li:not(:last-child) {
     margin-right: 70px;
+  }
+
+  .about .button-group button {
+    display: inline-block;
   }
 
   .offer {
@@ -97,5 +116,13 @@
     right: 0;
     bottom: 0;
     transform: translate(10%, 40%);
+  }
+
+  .header__menu {
+    display: none;
+  }
+
+  .header__nav {
+    display: block;
   }
 }

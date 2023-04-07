@@ -22,6 +22,17 @@ main {
   height: 100%;
 }
 
+.hero .about {
+  text-align: center;
+}
+
+.hero .subheading {
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
 /* ARTICLE ABOUT STYLES */
 /* Why not to use .hero .about .heading? Based on the comments above it's recommened to do so. */
 /* You can use .hero .about .heading.  */
@@ -30,16 +41,54 @@ main {
   font-weight: bold;
   font-size: 30px;
   line-height: 40px;
-  text-shadow: 0px 0px 10px #a387c4;
   margin: 0 0 30px 0;
 }
 
 /* You could create you own class for paragraphs and use it like .about .about-content */
 .about p {
-  font-weight: normal;
+  font-weight: bold;
   font-size: 16px;
   line-height: 24px;
-  margin: 0 0 20px 0;
+  margin: 0 80px 20px 80px;
+}
+
+@media screen and (min-width: 768px) {
+  .about p {
+    font-size: 22px;
+    line-height: 30px;
+    margin: 0 0 44px;
+  }
+}
+
+.about .button-group button:first-child {
+  margin-bottom: 20px;
+}
+
+.about .button-group button {
+  display: block;
+  margin: auto;
+}
+
+.button-cta {
+  background: #a387c4;
+  border-radius: 30px;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 20px 60px;
+  border: 1px solid #a387c4;
+}
+
+.button-secondary {
+  background: transparent;
+  border-radius: 30px;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 20px 60px;
+  border: 1px solid #a387c4;
 }
 
 .about ul.achievements {
@@ -86,6 +135,14 @@ main {
   position: relative;
 }
 
+.offer--yellow {
+  background-color: yellow;
+}
+
+.offer--magenta {
+  background-color: magenta;
+}
+
 .offer h3 {
   font-weight: bold;
   font-size: 16px;
@@ -121,4 +178,41 @@ main {
 .offer img {
   /* Hide memoji on mobile according to design */
   display: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 88px;
+}
+
+.header__logo {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.header__menu div {
+  width: 35px;
+  height: 5px;
+  background-color: menu;
+  margin: 6px 0;
+}
+
+.header__nav {
+  display: none;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.header__nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.header__nav ul li:not(:first-child) {
+  margin-left: 26px;
 }
