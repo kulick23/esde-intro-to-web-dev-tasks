@@ -19,67 +19,112 @@
   </head>
 
   <body>
-    <header class="header">Your Header here</header>
+    <header class="header">
+      <a class="logo" href="#">
+        <span class="color--pink">Bloom</span> Beauty
+      </a>
+    </header>
 
-    <section class="hero">Your Hero here</section>
+    <section class="hero">
+      <h1 class="hero__title">
+        Discover your inner beauty with Blossom Glow Kit
+      </h1>
 
-    <section class="container">
-      <div class="row">
-        <div class="item-auto">
-          <h2>New arrivals</h2>
-        </div>
-      </div>
+      <p class="hero__description">Great gift for yourself and loved ones</p>
 
-      <div class="row">
-        <div class="item-auto">
-          1st product here, inside that div as a separate tag (article/div/etc)
-        </div>
-
-        <div class="item-auto">
-          2nd product here, inside that div as a separate tag (article/div/etc)
-        </div>
-
-        <div class="item-auto">
-          3rd product here, inside that div as a separate tag (article/div/etc)
-        </div>
-
-        <!-- if needed, please add a new product using the same structure -->
-        <div class="item-auto">
-          n-th product here, inside that div as a separate tag (article/div/etc)
-        </div>
-      </div>
+      <button class="hero__cta">Shop now</button>
     </section>
 
-    <section class="container">
-      <div class="row">
+    <main class="container">
+      <section class="row">
         <div class="item-auto">
-          <h2>Best sellers</h2>
+          <h2 class="container__title">New arrivals</h2>
         </div>
+      </section>
+
+      <section class="row">
+        <div class="item-auto">
+          <article class="product">
+            <img
+              class="product__image"
+              src="./assets/images/product-01.png"
+              alt="Dewy Glow Jelly Cream image"
+            />
+
+            <div class="product__content">
+              <h3 class="product__title">Dewy Glow Jelly Cream</h3>
+
+              <p class="product__description">With Jeju Cherry Blossom</p>
+
+              <p class="product__price">&#36;32.00</p>
+
+              <button class="product__cta">Add to Bag</button>
+            </div>
+          </article>
+        </div>
+
+        <div class="item-auto">
+          <article class="product">
+            <img
+              class="product__image"
+              src="./assets/images/product-02.png"
+              alt="Fermented Soybean Bio Mask image"
+            />
+
+            <div class="product__content">
+              <h3 class="product__title">Fermented Soybean Bio Mask</h3>
+
+              <p class="product__description">
+                5-in-1 face mask made with refreshing cellulose
+              </p>
+
+              <p class="product__price">&#36;64.00</p>
+
+              <button class="product__cta">Add to Bag</button>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="contacts">
+        <a class="logo logo--inverted" href="#">
+          <span class="color--pink">Bloom</span> Beauty
+        </a>
+
+        <p>Discover nature's beauty with our natural care products.</p>
       </div>
 
-      <div class="row">
-        <div class="item-auto">
-          1st product-best here, inside that div as a separate tag
-          (article/div/etc)
-        </div>
+      <ul class="nav-list">
+        <li class="nav-list-item nav-list-item--title">Help</li>
+        <li class="nav-list-item">Contact us</li>
+        <li class="nav-list-item">FAQ</li>
+      </ul>
 
-        <div class="item-auto">
-          2nd product-best here, inside that div as a separate tag
-          (article/div/etc)
-        </div>
+      <ul class="nav-list">
+        <li class="nav-list-item nav-list-item--title">My Account</li>
+        <li class="nav-list-item">Addresses</li>
+        <li class="nav-list-item">Order status</li>
+      </ul>
 
-        <div class="item-auto">
-          3rd product-best here, inside that div as a separate tag
-          (article/div/etc)
-        </div>
+      <ul class="nav-list">
+        <li class="nav-list-item nav-list-item--title">Customer Care</li>
+        <li class="nav-list-item">About us</li>
+        <li class="nav-list-item">Blog</li>
+      </ul>
 
-        <!-- if needed, please add a new product using the same structure -->
-        <!-- <div class="item-auto">
-          n-th product-best here, inside that div as a separate tag (article/div/etc)
-        </div> -->
-      </div>
-    </section>
+      <article class="subscribe-form">
+        <h4 class="subscribe-form__title">Sign up for emails</h4>
 
-    <footer class="footer">Your Footer here</footer>
+        <p class="subscribe-form__description">
+          Stay informed, subscribe to our newsletter now!
+        </p>
+
+        <input type="email" name="email" id="email" />
+
+        <a href="#">Subscribe</a>
+      </article>
+    </footer>
   </body>
 </html>

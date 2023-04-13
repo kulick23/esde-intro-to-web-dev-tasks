@@ -1,10 +1,46 @@
-/* your styles here for mobile view by default */
 .product {
+  background-color: var(--color-white);
+  margin-bottom: 24px;
 }
 
-@media screen and (min-width: 768px) {
-  /* your styles here for desktop view */
+.product__image {
+  max-width: 100%;
+  height: 368px;
+  object-fit: contain;
+}
 
-  .product {
-  }
+.product__content {
+  padding: 8px 12px;
+}
+
+.product__title {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 500;
+
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.product__description {
+  font-size: 0.875rem;
+  line-height: 1.375rem;
+
+  margin-bottom: 8px;
+}
+
+.product__price {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 500;
+
+  margin-bottom: 22px;
+}
+
+.product__cta {
+  border: 1px solid var(--color-black);
+  border-radius: 4px;
+  background-color: var(--color-white);
+  color: var(--color-black);
+  padding: 10px 90px;
 }

@@ -39,3 +39,18 @@ html {
   background-color: var(--main-bg-color);
   color: var(--color-black);
 }
+
+.color--pink {
+  color: var(--color-pink);
+}
+
+.logo {
+  color: var(--color-black);
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  text-decoration: none;
+}
+
+.logo--inverted {
+  color: var(--color-white);
+}
