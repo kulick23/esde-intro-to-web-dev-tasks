@@ -1,0 +1,7 @@
+/* More details https://www.w3schools.com/css/css_rwd_mediaqueries.asp */
+@media screen and (min-width: 1080px) {
+  .main {
+    /* Set padding on a root content element as required by Figma Design */
+    padding: 64px 24px;
+  }
+}

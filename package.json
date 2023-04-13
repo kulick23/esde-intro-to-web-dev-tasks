@@ -13,6 +13,7 @@
     "serve:classtask-Humankind": "npm run start --workspace=packages/classtask-Humankind",
     "serve:classtask-workshop-27-03": "npm run start --workspace=packages/classtask-workshop-27-03",
     "serve:classtask-YuliaVorman": "npm run start --workspace=packages/classtask-YuliaVorman",
+    "serve:classtask-bloombeauty": "npm run start --workspace=packages/classtask-bloombeauty",
     "move": "node build.js",
     "build:series": "node build.js",
     "build": "mkdir dist && npm run build:series",

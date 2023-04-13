@@ -1,0 +1,6 @@
+/* All styles are described using a mobile-first approach */
+
+.main {
+  /* Set padding on a root content element as required by Figma Design */
+  padding: 24px 12px;
+}

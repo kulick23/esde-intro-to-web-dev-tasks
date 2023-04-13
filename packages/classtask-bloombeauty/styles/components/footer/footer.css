@@ -1,0 +1,10 @@
+/* your styles here for mobile view by default */
+.footer {
+}
+
+@media screen and (min-width: 768px) {
+  /* your styles here for desktop view */
+
+  .footer {
+  }
+}
