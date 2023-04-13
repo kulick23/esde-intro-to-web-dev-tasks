@@ -6,6 +6,12 @@ module.exports.tasks = [
     description: "Langing page to discover wonderful Indonesia with QWERy",
   },
   {
+    id: "hometask-pet",
+    type: "hometask",
+    title: "Pet Adoption",
+    description: "Langing page for a Pet Adoption Website (mobile and desktop layouts)",
+  },
+  {
     id: "classtask-YuliaVorman",
     type: "classtask",
     title: "YuliaVorman",
