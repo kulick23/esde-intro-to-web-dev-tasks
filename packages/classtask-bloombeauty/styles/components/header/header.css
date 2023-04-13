@@ -1,0 +1,10 @@
+/* your styles here for mobile view by default */
+.header {
+}
+
+@media screen and (min-width: 768px) {
+  /* your styles here for desktop view */
+
+  .header {
+  }
+}

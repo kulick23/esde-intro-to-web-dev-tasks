@@ -9,7 +9,8 @@ module.exports.tasks = [
     id: "hometask-pet",
     type: "hometask",
     title: "Pet Adoption",
-    description: "Langing page for a Pet Adoption Website (mobile and desktop layouts)",
+    description:
+      "Langing page for a Pet Adoption Website (mobile and desktop layouts)",
   },
   {
     id: "classtask-YuliaVorman",
@@ -22,6 +23,12 @@ module.exports.tasks = [
     type: "classtask",
     title: "Humantind",
     description: "A Humankind beauty landing page",
+  },
+  {
+    id: "classtask-bloombeauty",
+    type: "classtask",
+    title: "Bloom Beauty",
+    description: "A Page for Bloom Beauty cosmetics",
   },
   {
     id: "classtask-workshop-27-03",
