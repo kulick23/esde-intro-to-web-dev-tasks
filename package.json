@@ -9,6 +9,7 @@
   "main": "index.js",
   "scripts": {
     "serve:hometask-QWERy": "npm run start --workspace=packages/hometask-QWERy",
+    "serve:hometask-pet": "npm run start --workspace=packages/hometask-pet",
     "serve:classtask-Humankind": "npm run start --workspace=packages/classtask-Humankind",
     "serve:classtask-workshop-27-03": "npm run start --workspace=packages/classtask-workshop-27-03",
     "serve:classtask-YuliaVorman": "npm run start --workspace=packages/classtask-YuliaVorman",
