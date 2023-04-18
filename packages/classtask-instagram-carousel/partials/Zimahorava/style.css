@@ -14,3 +14,7 @@
   padding: 24px;
 }
 */
+#Zimahorava article{
+  background-color: #E5E5E5;
+  backdrop-filter: blur(5px);
+}
