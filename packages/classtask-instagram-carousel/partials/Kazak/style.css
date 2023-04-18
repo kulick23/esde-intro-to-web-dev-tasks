@@ -1,0 +1,16 @@
+/* CRITICAL: USE #Kazak AT THE BEGGINING OF EVERY CSS SELECTOR */
+
+/* Example 01 */
+/* 
+#Kazak .portfolio-title {
+  color: red;
+  margin-bottom: 10px;
+}
+*/
+
+/* Example 02 */
+/* 
+#Kazak article .portfolio-description {
+  padding: 24px;
+}
+*/

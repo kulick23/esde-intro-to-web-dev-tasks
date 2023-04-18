@@ -14,6 +14,7 @@
     "serve:classtask-workshop-27-03": "npm run start --workspace=packages/classtask-workshop-27-03",
     "serve:classtask-YuliaVorman": "npm run start --workspace=packages/classtask-YuliaVorman",
     "serve:classtask-bloombeauty": "npm run start --workspace=packages/classtask-bloombeauty",
+    "serve:classtask-instagram-carousel": "npm run start --workspace=packages/classtask-instagram-carousel",
     "move": "node build.js",
     "build:series": "node build.js",
     "build": "mkdir dist && npm run build:series",

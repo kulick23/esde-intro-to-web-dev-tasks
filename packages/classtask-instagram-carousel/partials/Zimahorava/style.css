@@ -1,0 +1,16 @@
+/* CRITICAL: USE #Zimahorava AT THE BEGGINING OF EVERY CSS SELECTOR */
+
+/* Example 01 */
+/* 
+#Zimahorava .portfolio-title {
+  color: red;
+  margin-bottom: 10px;
+}
+*/
+
+/* Example 02 */
+/* 
+#Zimahorava article .portfolio-description {
+  padding: 24px;
+}
+*/

@@ -1,5 +1,11 @@
 module.exports.tasks = [
   {
+    id: "classtask-instagram-carousel",
+    type: "skilldemo",
+    title: "Our Students",
+    description: "A list of small portfolio cards of our students",
+  },
+  {
     id: "hometask-QWERy",
     type: "hometask",
     title: "QWERy",

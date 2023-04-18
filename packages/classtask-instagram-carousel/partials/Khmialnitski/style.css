@@ -1,0 +1,16 @@
+/* CRITICAL: USE #Khmialnitski AT THE BEGGINING OF EVERY CSS SELECTOR */
+
+/* Example 01 */
+/* 
+#Khmialnitski .portfolio-title {
+  color: red;
+  margin-bottom: 10px;
+}
+*/
+
+/* Example 02 */
+/* 
+#Khmialnitski article .portfolio-description {
+  padding: 24px;
+}
+*/

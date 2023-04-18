@@ -1,0 +1,16 @@
+/* CRITICAL: USE #Zatsepina AT THE BEGGINING OF EVERY CSS SELECTOR */
+
+/* Example 01 */
+/* 
+#Zatsepina .portfolio-title {
+  color: red;
+  margin-bottom: 10px;
+}
+*/
+
+/* Example 02 */
+/* 
+#Zatsepina article .portfolio-description {
+  padding: 24px;
+}
+*/

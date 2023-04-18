@@ -1,0 +1,16 @@
+/* CRITICAL: USE #Tverdokhlib AT THE BEGGINING OF EVERY CSS SELECTOR */
+
+/* Example 01 */
+/* 
+#Tverdokhlib .portfolio-title {
+  color: red;
+  margin-bottom: 10px;
+}
+*/
+
+/* Example 02 */
+/* 
+#Tverdokhlib article .portfolio-description {
+  padding: 24px;
+}
+*/
