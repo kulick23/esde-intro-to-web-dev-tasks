@@ -1,7 +1,7 @@
 /* CRITICAL: USE #Mialeshka AT THE BEGGINING OF EVERY CSS SELECTOR */
 
 /* Example 01 */
-/* 
+/*
 #Mialeshka .portfolio-title {
   color: red;
   margin-bottom: 10px;
@@ -9,8 +9,74 @@
 */
 
 /* Example 02 */
-/* 
+/*
 #Mialeshka article .portfolio-description {
   padding: 24px;
 }
 */
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600&family=Poppins:wght@500;600&display=swap');
+
+#Mialeshka *{
+  margin: 0;
+  padding: 0;
+}
+
+#Mialeshka article {
+  font-size: 16px;
+}
+
+#Mialeshka .section__text {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2rem;
+  line-height: 0.03em;
+  font-weight: 500;
+  letter-spacing: 0.5em;
+  color: rgba(44, 45, 47, 0.75);
+  margin-bottom: 22px;
+}
+
+#Mialeshka .section__heading {
+  font-family: 'Poppins', sans-serif;
+  font-size: 6.25rem;
+  line-height: 1.135em;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  color: rgba(44, 45, 47, 1);
+  margin-bottom: 64px;
+}
+
+#Mialeshka .section__user-info {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 276px;
+}
+
+#Mialeshka .section__user-info__img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #b0a6bd;
+  margin-right: 24px;
+}
+
+#Mialeshka .section__user-info__data__name {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.375rem;
+  line-height: 1.27em;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  color: #000000;
+}
+
+#Mialeshka .section__user-info__data__nickname {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.21em;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  color: rgba(18, 18, 18, 0.5);
+}
