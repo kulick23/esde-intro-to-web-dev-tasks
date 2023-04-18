@@ -1,7 +1,7 @@
 /* CRITICAL: USE #Romanova AT THE BEGGINING OF EVERY CSS SELECTOR */
 
 /* Example 01 */
-/* 
+/*
 #Romanova .portfolio-title {
   color: red;
   margin-bottom: 10px;
@@ -9,8 +9,67 @@
 */
 
 /* Example 02 */
-/* 
+/*
 #Romanova article .portfolio-description {
   padding: 24px;
 }
 */
+#Romanova article {
+  width: 1080px;
+  height: 1350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 70px 90px;
+}
+#Romanova .article__content {
+  max-width: 900px;
+  align-self: flex-start;
+}
+
+#Romanova .subheading {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 113.5%;
+  letter-spacing: 0.005em;
+  text-transform: capitalize;
+  color: rgba(44, 45, 47, 0.75);
+  margin: 0 0 22px;
+}
+
+#Romanova .heading {
+  font-weight: 600;
+  font-size: 100px;
+  line-height: 113.5%;
+  letter-spacing: -0.01em;
+  text-transform: capitalize;
+  color: #2c2d2f;
+  margin: 0 0 64px;
+}
+
+#Romanova .author {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+#Romanova .author__image {
+  flex: 0 0 auto;
+  border-radius: 50%;
+  background-color: rgba(44, 45, 47, 0.75);
+  width: 80px;
+  height: 80px;
+}
+
+#Romanova .author__title {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 127%;
+  letter-spacing: 0.01em;
+  color: #000000;
+}
+
+section + #Romanova {
+  background-color: #e6f0fc;
+}
