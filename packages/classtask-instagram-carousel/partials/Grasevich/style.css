@@ -1,0 +1,16 @@
+/* CRITICAL: USE #Grasevich AT THE BEGGINING OF EVERY CSS SELECTOR */
+
+/* Example 01 */
+/* 
+#Grasevich .portfolio-title {
+  color: red;
+  margin-bottom: 10px;
+}
+*/
+
+/* Example 02 */
+/* 
+#Grasevich article .portfolio-description {
+  padding: 24px;
+}
+*/

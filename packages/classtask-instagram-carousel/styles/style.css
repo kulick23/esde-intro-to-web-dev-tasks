@@ -1,0 +1,45 @@
+/* Download font 'Poppins' from the internet */
+/* If you'd like, you could use your own font. Please go to https://fonts.google.com/ and choose your favourite */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@300;400;500;700&display=swap");
+
+/* components */
+@import url("./components/header/header.css");
+
+/* This is called CSS Custom Properties */
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties */
+:root {
+  --color-main-bg: #fcfcff;
+  --color-black: #383838;
+  --color-white: #ffffff;
+  --color-blue-gray: #697586;
+  --color-gray: #dfe1e3;
+  --color-lilac: #b0a6bd;
+  --color-pink: #f5a3b7;
+  --color-light-pink: #fee2e3;
+  --color-green: #7fccc6;
+  --color-red: #e77373;
+  --color-orange: #fdb64e;
+}
+
+/* COMMON PAGE STYLES */
+html {
+  /* Apply download font "Poppins" by setting that on the first position in a row */
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  background-color: var(--color-main-bg);
+  color: var(--color-black);
+  scroll-behavior: smooth;
+}
+
+.container {
+  padding: 16px;
+  margin: 12px 24px;
+  scroll-margin-top: 15rem;
+
+  min-height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 1px solid var(--color-blue-gray);
+}

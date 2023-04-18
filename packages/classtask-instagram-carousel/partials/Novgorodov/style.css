@@ -1,0 +1,16 @@
+/* CRITICAL: USE #Novgorodov AT THE BEGGINING OF EVERY CSS SELECTOR */
+
+/* Example 01 */
+/* 
+#Novgorodov .portfolio-title {
+  color: red;
+  margin-bottom: 10px;
+}
+*/
+
+/* Example 02 */
+/* 
+#Novgorodov article .portfolio-description {
+  padding: 24px;
+}
+*/

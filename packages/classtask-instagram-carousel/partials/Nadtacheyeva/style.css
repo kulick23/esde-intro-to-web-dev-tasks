@@ -1,0 +1,16 @@
+/* CRITICAL: USE #Nadtacheyeva AT THE BEGGINING OF EVERY CSS SELECTOR */
+
+/* Example 01 */
+/* 
+#Nadtacheyeva .portfolio-title {
+  color: red;
+  margin-bottom: 10px;
+}
+*/
+
+/* Example 02 */
+/* 
+#Nadtacheyeva article .portfolio-description {
+  padding: 24px;
+}
+*/
