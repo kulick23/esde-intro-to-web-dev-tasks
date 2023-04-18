@@ -1,6 +1,6 @@
 /* Download font 'Poppins' from the internet */
 /* If you'd like, you could use your own font. Please go to https://fonts.google.com/ and choose your favourite */
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Open+Sans&family=Poppins:wght@300;400;500;700&display=swap");
 
 /* components */
 @import url("./components/header/header.css");
@@ -24,7 +24,7 @@
 /* COMMON PAGE STYLES */
 html {
   /* Apply download font "Poppins" by setting that on the first position in a row */
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", "Inter", sans-serif;
   font-size: 16px;
   background-color: var(--color-main-bg);
   color: var(--color-black);
