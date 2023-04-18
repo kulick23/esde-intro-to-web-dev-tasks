@@ -14,3 +14,123 @@
   padding: 24px;
 }
 */
+
+#Kurouski h2, #Kurouski h3 {
+  padding: 0;
+  margin: 0;
+}
+
+#Kurouski article {
+  display: flex;
+  flex-direction: column;
+  max-width: 1080px;
+  background-color: white;
+  padding: 90px 70px;
+}
+
+#Kurouski div.content {
+  font-family: 'Poppins';
+  font-style: normal;
+}
+
+#Kurouski div.content {
+  display: flex;
+  flex-direction: column;
+  max-width: 60%;
+}
+
+#Kurouski h3.subtitle {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 36px;
+
+  text-transform: capitalize;
+  color: rgba(44, 45, 47, 0.75);
+}
+
+#Kurouski h2.title {
+  font-weight: 600;
+  font-size: 100px;
+  line-height: 114%;
+
+  text-transform: capitalize;
+
+  color: #2C2D2F;
+}
+
+#Kurouski div.user-info {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-top: 62px;
+}
+
+#Kurouski div.user-avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+}
+
+#Kurouski div.user-initials {
+  font-family: 'Inter';
+}
+
+#Kurouski span.user-name {
+  display: flex;
+  flex-direction: column;
+
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 28px;
+  color: black;
+}
+
+#Kurouski span.user-tag {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: rgba(18, 18, 18, 0.5);
+}
+
+#Kurouski div.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 276px;
+  width: 100%;
+}
+
+#Kurouski div.creds {
+  display: flex;
+  flex-direction: column;
+  gap: 6px
+}
+
+#Kurouski span.creds-follow {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 28px;
+
+  color: #000000;
+}
+
+#Kurouski span.creds-tips {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: rgba(18, 18, 18, 0.5);
+}
+
+#Kurouski div.save {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: stretch;
+}
+
+#Kurouski img.save-icon {
+  transform: scale(40%);
+}
