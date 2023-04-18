@@ -1,0 +1,115 @@
+/* CRITICAL: USE #Krasnou AT THE BEGGINING OF EVERY CSS SELECTOR */
+
+/* Example 01 */
+/* 
+#Krasnou .portfolio-title {
+  color: red;
+  margin-bottom: 10px;
+}
+*/
+
+/* Example 02 */
+/* 
+#Krasnou article .portfolio-description {
+  padding: 24px;
+}
+*/
+
+#Krasnou .card {
+  padding: 64px 12px;
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+  width: 812px;
+}
+
+#Krasnou .card-circle {
+  width: 456px;
+  height: 456px;
+  background: aqua;
+  filter: blur(45px);
+  border-radius: 100%;
+  position: absolute;
+  z-index: -1;
+  right: 30%;
+  top: 50%;
+  transform: translate(50%, -50%);
+}
+
+#Krasnou .card-subtitle {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  letter-spacing: 0.005em;
+  text-transform: capitalize;
+  color: rgba(44, 45, 47, 0.75);
+}
+
+#Krasnou .card-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 100px;
+
+  letter-spacing: -0.01em;
+
+  color: #2c2d2f;
+}
+
+#Krasnou .card-info {
+  display: flex;
+  align-items: center;
+}
+
+#Krasnou .card-info__content {
+  margin-left: 12px;
+}
+
+#Krasnou .card-info__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  color: #000000;
+
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+#Krasnou .card-info__tag {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+
+  color: rgba(18, 18, 18, 0.5);
+
+  margin: 0;
+}
+
+#Krasnou .card-actions {
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 164px;
+}
+
+#Krasnou .card-actions__hint-title {
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+#Krasnou .card-actions__hint-description {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#Krasnou .card-actions__action {
+  text-align: center;
+}
+
+#Krasnou .card-actions__action-label {
+  margin-top: 12px;
+  margin-bottom: 0;
+}
