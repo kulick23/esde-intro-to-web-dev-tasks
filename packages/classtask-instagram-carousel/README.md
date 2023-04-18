@@ -1,13 +1,13 @@
-# Skill demontrations - Our Students
+# Class Task - Instagram Carousel 
 
 ## Task descrition
 
-Your task is to implement two designs from Figma
+Your task is to implement any of the Figma designs
 
-- "main page" (Desktop view) - "All frames" Page from Pages section (top left corner)
-- "main page mob" (Mobile view)
-- "catalog"
-- "catalog mob one column category"
+- "1" first screen - "Carousel" Page from Pages section (top left corner)
+- "2" second screen - "Carousel" Page from Pages section (top left corner)
+- "3" third screen - "Carousel" Page from Pages section (top left corner)
+- "8" last screen - "Carousel" Page from Pages section (top left corner)
 
 ## Figma design link
 
