@@ -1,0 +1,16 @@
+/* CRITICAL: USE #Romanova AT THE BEGGINING OF EVERY CSS SELECTOR */
+
+/* Example 01 */
+/*
+#Romanova .portfolio-title {
+  color: red;
+  margin-bottom: 10px;
+}
+*/
+
+/* Example 02 */
+/*
+#Romanova article .portfolio-description {
+  padding: 24px;
+}
+*/

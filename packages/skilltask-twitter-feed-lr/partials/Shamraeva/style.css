@@ -1,0 +1,16 @@
+/* CRITICAL: USE #Shamraeva AT THE BEGGINING OF EVERY CSS SELECTOR */
+
+/* Example 01 */
+/* 
+#Shamraeva .portfolio-title {
+  color: red;
+  margin-bottom: 10px;
+}
+*/
+
+/* Example 02 */
+/* 
+#Shamraeva article .portfolio-description {
+  padding: 24px;
+}
+*/

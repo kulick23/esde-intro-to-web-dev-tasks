@@ -1,0 +1,16 @@
+/* CRITICAL: USE #Tsikhamirau AT THE BEGGINING OF EVERY CSS SELECTOR */
+
+/* Example 01 */
+/* 
+#Tsikhamirau .portfolio-title {
+  color: red;
+  margin-bottom: 10px;
+}
+*/
+
+/* Example 02 */
+/* 
+#Tsikhamirau article .portfolio-description {
+  padding: 24px;
+}
+*/

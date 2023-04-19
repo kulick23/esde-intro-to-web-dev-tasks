@@ -1,0 +1,16 @@
+/* CRITICAL: USE #Iuzhychenka AT THE BEGGINING OF EVERY CSS SELECTOR */
+
+/* Example 01 */
+/* 
+#Iuzhychenka .portfolio-title {
+  color: red;
+  margin-bottom: 10px;
+}
+*/
+
+/* Example 02 */
+/* 
+#Iuzhychenka article .portfolio-description {
+  padding: 24px;
+}
+*/

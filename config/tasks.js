@@ -48,4 +48,10 @@ module.exports.tasks = [
     title: "HR Workshop-30-03",
     description: "Workshop on March 30th for HR students (images, sprites)",
   },
+  {
+    id: "skilltask-twitter-feed-lr",
+    type: "skilltask",
+    title: "Twitter Feed HR",
+    description: "Twitter Feed Collaboration for Low Residence Students",
+  }
 ];

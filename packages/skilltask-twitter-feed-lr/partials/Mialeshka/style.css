@@ -1,0 +1,16 @@
+/* CRITICAL: USE #Mialeshka AT THE BEGGINING OF EVERY CSS SELECTOR */
+
+/* Example 01 */
+/*
+#Mialeshka .portfolio-title {
+  color: red;
+  margin-bottom: 10px;
+}
+*/
+
+/* Example 02 */
+/*
+#Mialeshka article .portfolio-description {
+  padding: 24px;
+}
+*/
