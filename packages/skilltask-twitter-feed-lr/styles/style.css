@@ -27,13 +27,9 @@ html {
 
 .container {
   padding: 16px;
-  margin: 12px 24px;
   scroll-margin-top: 15rem;
 
-  min-height: 50vh;
   display: flex;
   justify-content: center;
   align-items: center;
-
-  border: 1px solid var(--color-blue-gray);
 }

@@ -6,9 +6,21 @@
 
 Your task is to implement Figma design
 
+## Evaluation criteria - maximum 8 points
+
+- [ ] Your name and surname instead of `John Doe` - **1 point**
+- [ ] - Your correct EHU mail address instead of `@realjohndoe` - **1 point**
+  - [ ] [Clickable](https://www.tutorialspoint.com/html/html_email_links.htm) EHU mail address - **1 point**
+- Correct dimensions
+  - [ ] Card width 600px - **0.5 points**
+  - [ ] Font sizes (18px, 16px where is needed) - **0.5 points**
+- [ ] Correct image/icons usage from `assets` folder (please read Q&A section at the end of the page for details) - **0.5 point**
+- [ ] Instead of an image of a person (in Figma that image is called `Ellipse 1` and it's an image of a man) draw just CSS circle with some color you would like (solid, gradient, anything) - **0.5 points**
+- [ ] Instead of `Why do they call it 'debugging' when it feels more like 'wildly guessing and hoping for the best'? #programming #coding #debugging` write down your personal thoughts about anything in IT/EHU/JavaScript/Frontend/Backend/Math/etc. It should smth personal and rather neutral (no offence, harsh words, politics, etc) that could describe you as a student/person from a professional point of view. No need to write a lot - please keep limit up to max 280 characters. Don't forget to use and style hashtags! It's a must to have at least one styled #hashtag - **3 points**
+
 ## Figma design link
 
-[A link to Figma Design](https://www.figma.com/file/ZnQ0IxVzG6VGku4KvZQf7Q/Twitter-Embed-(Community))
+[A link to Figma Design](<https://www.figma.com/file/ZnQ0IxVzG6VGku4KvZQf7Q/Twitter-Embed-(Community)>)
 
 ## Image design
 
