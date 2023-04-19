@@ -1,8 +1,10 @@
-# Class Task - Instagram Carousel 
+# Class Task - Instagram Carousel
+
+[[_TOC_]]
 
 ## Task descrition
 
-Your task is to implement any of the Figma designs
+Your task is to implement <b>any</b> of the Figma designs
 
 - "1" first screen - "Carousel" Page from Pages section (top left corner)
 - "2" second screen - "Carousel" Page from Pages section (top left corner)
@@ -11,7 +13,7 @@ Your task is to implement any of the Figma designs
 
 ## Figma design link
 
-[Figma design link is here](https://www.figma.com/file/nm0tngMap2yDdPLsypNMfW/Instagram-Carousels-(Community))
+[Figma design link is here](<https://www.figma.com/file/nm0tngMap2yDdPLsypNMfW/Instagram-Carousels-(Community)>)
 
 ## Font Poppins
 
@@ -88,3 +90,37 @@ Why to use - simply you don't want to deal with NPM and JavaScript or there migh
 Why to use - every time you make a change your page is automatically reloaded and your changes applied
 
 Why not to use - you don't want to deal with NPM and JavaScript or there might be any issues currently with it
+
+## Q&A
+
+### How to use images?
+
+To use an image from assets folder inside partial/your_surname/index.html file please use the path starting with `assets/...` i.e
+
+```html
+<img src="assets/images/image-man.png" height="80" width="80" alt="" />
+
+<img src="assets/icons/save-icon.svg" height="26" width="18" alt="" />
+```
+
+### NPM Troubleshoting
+
+#### npm err! cannot set properties of null (setting 'peer')
+
+- Remove `package-lock.json`
+- Remove `node_modules` folder/folders
+- From repository root folder (intro-to-web-dev-tasks, not packages/any) run `npm install`
+
+If an issue still persists, follow the next steps:
+
+- From repository root folder (intro-to-web-dev-tasks, not packages/any)
+  - Run `npm install -g npm-force-resolutions`
+  - Run `npm-force-resolutions`
+  - Run `npm install`
+  - Run `npm uninstall -g npm-force-resolutions`
+
+Source: [https://you.com/search?q=npm+err%21+cannot+set+properties+of+null+%28setting+%27peer%27%29&tbm=youchat&cfr=chatb&cid=c2_b44a3506-b7e8-4458-bcc7-7bedde76ab7b](https://you.com/search?q=npm+err%21+cannot+set+properties+of+null+%28setting+%27peer%27%29&tbm=youchat&cfr=chatb&cid=c2_b44a3506-b7e8-4458-bcc7-7bedde76ab7b)
+
+#### Cannot read properties of null (reading 'pickAlgorithm')
+
+Source: [https://bobbyhadz.com/blog/npm-err-cannot-read-properties-of-null-reading-pickalgorithm](https://bobbyhadz.com/blog/npm-err-cannot-read-properties-of-null-reading-pickalgorithm)
