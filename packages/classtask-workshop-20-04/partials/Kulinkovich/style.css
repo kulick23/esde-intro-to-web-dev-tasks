@@ -1,0 +1,16 @@
+/* CRITICAL: USE #Kulinkovich AT THE BEGGINING OF EVERY CSS SELECTOR */
+
+/* Example 01 */
+/* 
+#Kulinkovich .portfolio-title {
+  color: red;
+  margin-bottom: 10px;
+}
+*/
+
+/* Example 02 */
+/* 
+#Kulinkovich article .portfolio-description {
+  padding: 24px;
+}
+*/

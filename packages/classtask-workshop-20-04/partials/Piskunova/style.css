@@ -1,0 +1,16 @@
+/* CRITICAL: USE #Piskunova AT THE BEGGINING OF EVERY CSS SELECTOR */
+
+/* Example 01 */
+/* 
+#Piskunova .portfolio-title {
+  color: red;
+  margin-bottom: 10px;
+}
+*/
+
+/* Example 02 */
+/* 
+#Piskunova article .portfolio-description {
+  padding: 24px;
+}
+*/

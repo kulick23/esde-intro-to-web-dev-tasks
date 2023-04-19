@@ -1,0 +1,16 @@
+/* CRITICAL: USE #Rybin AT THE BEGGINING OF EVERY CSS SELECTOR */
+
+/* Example 01 */
+/* 
+#Rybin .portfolio-title {
+  color: red;
+  margin-bottom: 10px;
+}
+*/
+
+/* Example 02 */
+/* 
+#Rybin article .portfolio-description {
+  padding: 24px;
+}
+*/

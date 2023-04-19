@@ -1,0 +1,16 @@
+/* CRITICAL: USE #Korbut AT THE BEGGINING OF EVERY CSS SELECTOR */
+
+/* Example 01 */
+/* 
+#Korbut .portfolio-title {
+  color: red;
+  margin-bottom: 10px;
+}
+*/
+
+/* Example 02 */
+/* 
+#Korbut article .portfolio-description {
+  padding: 24px;
+}
+*/

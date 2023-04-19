@@ -1,0 +1,16 @@
+/* CRITICAL: USE #Huzarevich AT THE BEGGINING OF EVERY CSS SELECTOR */
+
+/* Example 01 */
+/* 
+#Huzarevich .portfolio-title {
+  color: red;
+  margin-bottom: 10px;
+}
+*/
+
+/* Example 02 */
+/* 
+#Huzarevich article .portfolio-description {
+  padding: 24px;
+}
+*/
