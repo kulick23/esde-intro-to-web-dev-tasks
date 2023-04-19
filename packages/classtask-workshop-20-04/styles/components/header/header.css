@@ -39,3 +39,7 @@
   padding: 0.5rem 0.75rem;
   text-decoration: none;
 }
+
+#header nav ul li.active a {
+  color: var(--color-red);
+}

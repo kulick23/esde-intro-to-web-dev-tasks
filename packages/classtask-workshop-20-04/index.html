@@ -133,23 +133,29 @@
     <section id="Shamraeva" class="container">{{> Shamraeva/index }}</section>
 
     <script>
-      let nav = document.querySelectorAll("nav");
+      document.addEventListener("DOMContentLoaded", () => {
+        const nav = document.querySelector("nav");
+        const navLinks = document.querySelectorAll("nav a");
 
-      if (nav) {
-        let navLinks = document.querySelectorAll("nav a");
         let activeLink = document.querySelector(".active");
-        activeLink.scrollIntoView({ behavior: "smooth", inline: "center" });
 
-        navLinks.forEach(function (link) {
-          link.addEventListener("click", (event) => {
-            navLinks.forEach(function (link) {
-              link.classList.remove("active");
-            });
-            link.classList.add("active");
-            link.scrollIntoView({ behavior: "smooth", inline: "center" });
-          });
+        if (activeLink) {
+          activeLink.scrollIntoView({ behavior: "smooth", inline: "center" });
+        }
+
+        nav.addEventListener("click", (event) => {
+          if (!event.target.getAttribute("href")) {
+            event.preventDefault();
+          }
+
+          event?.target?.parentNode?.classList?.toggle("active");
+          if (activeLink) {
+            activeLink.classList.toggle("active");
+          }
+
+          activeLink = event?.target?.parentNode;
         });
-      }
+      });
     </script>
   </body>
 </html>
