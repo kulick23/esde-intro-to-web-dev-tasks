@@ -14,3 +14,60 @@
   padding: 24px;
 }
 */
+#Drozhdzh article {
+  font-family: 'Poppins', sans-serif;
+}
+
+#Drozhdzh h1 {
+  font-size: 60px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+#Drozhdzh article p {
+   font-size: 16px;
+   font-weight: 400;
+}
+
+#Drozhdzh circle{
+  width: 456px;
+    height: 456px;
+    background: #EB00FF;
+    filter: blur(45px);
+    border-radius: 100%;
+    position: absolute;
+    z-index: -1;
+    right: 30%;
+    top: 50%;
+    transform: translate(50%, -50%);
+}
+
+#Drozhdzh .save {
+  display: flex;
+  flex-direction: column;
+  
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+#Drozhdzh .my-name {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+#Drozhdzh .tag {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+#Drozhdzh .footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 60px;
+}
+
+#Drozhdzh .icon {
+  height: 18px;
+}

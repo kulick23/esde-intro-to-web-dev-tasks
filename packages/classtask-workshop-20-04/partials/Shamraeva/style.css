@@ -14,3 +14,128 @@
   padding: 24px;
 }
 */
+#Shamraeva .card {
+  padding: 64px 112px;
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+  width: 812px;
+
+  background-color: #262c4b;
+  color: white;
+
+  z-index: 0;
+}
+
+#Shamraeva .card-circle {
+  width: 456px;
+  height: 456px;
+  border-radius: 100%;
+  background: linear-gradient(0.45deg, #ff5c00, #ffb800);
+
+  filter: blur(70px);
+
+  position: absolute;
+  z-index: -1;
+  right: 30%;
+  top: 50%;
+  transform: translate(50%, -50%);
+}
+
+/* https://alvaromontoro.com/blog/67970/drawing-a-triangle-with-css */
+#Shamraeva .card-triangle {
+  width: 256px;
+  height: 256px;
+  background-image: linear-gradient(to bottom right, transparent 50%, #ffb800 0),
+    linear-gradient(to top right, #ffb800 50%, transparent 0);
+  background-size: 50% 100%;
+  background-repeat: no-repeat;
+  background-position: left, right;
+
+  filter: blur(70px);
+
+  position: absolute;
+  z-index: -1;
+  right: 20%;
+  top: 30%;
+  transform: translate(60%, -50%);
+}
+
+#Shamraeva .card-subtitle {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  letter-spacing: 0.005em;
+  text-transform: capitalize;
+}
+
+#Shamraeva .card-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 100px;
+
+  letter-spacing: -0.01em;
+}
+
+#Shamraeva .card-info {
+  display: flex;
+  align-items: center;
+}
+
+#Shamraeva .card-info__content {
+  margin-left: 12px;
+}
+
+#Shamraeva .card-info__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+#Shamraeva .card-info__tag {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+
+  color: #ffffff50;
+
+  margin: 0;
+}
+
+#Shamraeva .card-actions {
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 164px;
+}
+
+#Shamraeva .card-actions__hint-title {
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+#Shamraeva .card-actions__hint-description {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#Shamraeva .card-actions__action {
+  text-align: center;
+}
+
+#Shamraeva .card-actions__action-img {
+  /* change color to white if it's black and vs */
+  filter: invert(1);
+}
+
+#Shamraeva .card-actions__action-label {
+  margin-top: 12px;
+  margin-bottom: 0;
+}
