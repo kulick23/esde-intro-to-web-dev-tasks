@@ -54,10 +54,6 @@ Your task is to implement <b>any</b> of the Figma designs
 
 ## Project structure
 
-`index.html` - contains HTML code
-
-`styles` - contains CSS code
-
 `assets/design` - contains final design template
 
 `assets/images` - contains images
@@ -66,8 +62,13 @@ Your task is to implement <b>any</b> of the Figma designs
 
 `partials/{surname}` - contains isolated code for each students
 
+`partials/{surname}/index.html` - contains HTML code
+
+`partials/{surname}/style.css` - contains CSS code
+
 ## Installation & how to get tasks
 
+Please follow instructions [provided here](https://gitlab.com/epam-ehu/intro-to-web-dev-tasks#how-to-get-new-tasks-into-your-repository) 
 
 ## How to run
 
