@@ -14,3 +14,93 @@
   padding: 24px;
 }
 */
+
+#Nadtacheyeva a {
+  text-decoration: none;
+}
+
+#Nadtacheyeva .card {
+  width: 600px;
+  margin: 0 auto;
+  padding: 35px 31px;
+  background-color: #fff;
+  border: 1px solid #1da1f233;
+  border-radius: 10px;
+  box-shadow: #1da1f233 0px 7px 29px 0px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  color: #000;
+}
+
+
+
+#Nadtacheyeva .card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#Nadtacheyeva .card-header-user {
+  display: flex;
+}
+
+#Nadtacheyeva .user-photo {
+  background: #77c3c7;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
+
+#Nadtacheyeva .user-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 22px;
+}
+
+#Nadtacheyeva .user-name {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+#Nadtacheyeva .user-email a {
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+#Nadtacheyeva .user-email a:hover {
+  color: #1da1f2;
+}
+
+
+
+#Nadtacheyeva .card-tweet {
+  margin: 18px 0;
+  font-weight: 400;
+  line-height: 162%;
+}
+
+#Nadtacheyeva .hashtag {
+  color: #1da1f2;
+}
+
+#Nadtacheyeva .hashtag:hover {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+
+#Nadtacheyeva .card-footer {
+  display: flex;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 600;
+  line-height: 162%;
+}
+
+#Nadtacheyeva .likes-img {
+  margin-right: 10px;
+}
+
+#Nadtacheyeva .likes-number {
+  margin-right: 20px;
+}
