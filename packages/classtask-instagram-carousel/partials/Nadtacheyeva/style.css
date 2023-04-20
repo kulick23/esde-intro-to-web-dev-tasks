@@ -14,3 +14,73 @@
   padding: 24px;
 }
 */
+
+#Nadtacheyeva .card {
+  padding: 64px 12px;
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+  width: 812px;
+}
+
+#Nadtacheyeva .card-circle {
+  width: 456px;
+  height: 456px;
+  background: rgba(0, 102, 255, 0.411);
+  filter: blur(30px);
+  border-radius: 100%;
+  position: absolute;
+  z-index: -1;
+  right: 100%;
+  top: 50%;
+  transform: translate(50%, -50%);
+}
+
+#Nadtacheyeva .card-subtitle {
+  text-align: right;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  letter-spacing: 0.005em;
+  text-transform: capitalize;
+  color: rgba(44, 45, 47, 0.75);
+}
+
+#Nadtacheyeva .card-title {
+  text-align: right;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 100px;
+  letter-spacing: -0.01em;
+  color: #2c2d2f;
+}
+
+#Nadtacheyeva .arrow {
+  display: block;
+  margin-left: auto;
+}
+
+#Nadtacheyeva .card-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 164px;
+}
+
+#Nadtacheyeva .card-actions__contact-name {
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+#Nadtacheyeva .card-actions__contact-email {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#Nadtacheyeva .card-actions__action {
+  text-align: right;
+}
+
+#Nadtacheyeva .card-actions__action-label {
+  margin-top: 0;
+  margin-bottom: 0;
+}
