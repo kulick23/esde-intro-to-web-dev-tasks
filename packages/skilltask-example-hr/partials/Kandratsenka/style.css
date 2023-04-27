@@ -1,0 +1,16 @@
+/* CRITICAL: USE #Kandratsenka AT THE BEGGINING OF EVERY CSS SELECTOR */
+
+/* Example 01 */
+/* 
+#Kandratsenka .portfolio-title {
+  color: red;
+  margin-bottom: 10px;
+}
+*/
+
+/* Example 02 */
+/* 
+#Kandratsenka article .portfolio-description {
+  padding: 24px;
+}
+*/

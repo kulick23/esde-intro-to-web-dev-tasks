@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <title>High Residence Students</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="./styles/style.css" />
+
+    <link rel="stylesheet" href="./partials/Kandratsenka/style.css" />
+  </head>
+
+  <body>
+    <header class="header" id="header">
+      <h1>Low Residence Students</h1>
+
+      <nav>
+        <ul>
+          <li class="active"><a href="#Kandratsenka">Kandratsenka</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="Kandratsenka" class="container">
+      {{> Kandratsenka/index }}
+    </section>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const nav = document.querySelector("nav");
+        const navLinks = document.querySelectorAll("nav a");
+
+        let activeLink = document.querySelector(".active");
+
+        if (activeLink) {
+          activeLink.scrollIntoView({ behavior: "smooth", inline: "center" });
+        }
+
+        nav.addEventListener("click", (event) => {
+          if (!event.target.getAttribute("href")) {
+            event.preventDefault();
+          }
+
+          event?.target?.parentNode?.classList?.toggle("active");
+          if (activeLink) {
+            activeLink.classList.toggle("active");
+          }
+
+          activeLink = event?.target?.parentNode;
+        });
+      });
+    </script>
+  </body>
+</html>
