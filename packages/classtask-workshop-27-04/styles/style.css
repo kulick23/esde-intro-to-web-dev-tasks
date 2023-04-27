@@ -1,0 +1,68 @@
+body {
+  background-color: #e7a8a8;
+}
+.message {
+  background-color: #fff;
+  padding: 16px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+
+.message__first-line {
+  display: flex;
+  column-gap: 25px;
+}
+
+.message__logo {
+  max-width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+}
+
+.message__logo img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.message__content {
+  flex: 1 0 auto;
+}
+
+.message__time {
+  /* margin-left: auto; */
+}
+
+.message__second-line {
+  display: flex;
+}
+
+.message__subscriber {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: aqua;
+  border: 2px solid #fff;
+  box-sizing: border-box;
+  margin-left: -20px;
+  background-image: url('../assets/grey-kitten.webp');
+  background-position: center center;
+  background-size: cover;
+}
+
+.message__subscriber:first-child {
+  margin-left: 0;
+}
+
+.message__subscriber img {
+  max-width: 100%;
+  max-height: 100%;
+}

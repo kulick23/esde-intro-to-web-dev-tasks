@@ -1,7 +1,7 @@
 {
-  "name": "skilltask-test",
+  "name": "classtask-27-04",
   "version": "1.0.0",
-  "description": "Skill demontration task for EHU EPAM Introduction to WebDev Course",
+  "description": "Hometask for EHU EPAM Introduction to WebDev Course",
   "main": "index.js",
   "scripts": {
     "build": "vite build --base=./",
@@ -16,7 +16,7 @@
     "type": "git",
     "url": "git+https://gitlab.com/epam-ehu/intro-to-web-dev-tasks.git"
   },
-  "author": "Aliaksandr Krasnou <aliaksandr_krasnou@epam.com>",
+  "author": "Andrei Kandratsenka",
   "license": "ISC",
   "devDependencies": {
     "eslint-config-esdu": "*",
