@@ -2,7 +2,7 @@ import { ProductsApi } from "./api/productsClass";
 import { renderProducts } from "./components/product/product";
 import { renderHeader } from "./components/header/header";
 import structure from './components/footer/structure.json';
-import { Footer, test } from './components/footer/footer';
+import { Footer } from './components/footer/footer';
 
 const productsApi = new ProductsApi();
 
@@ -16,5 +16,3 @@ const footer = new Footer(structure);
 const footerNode = footer.render();
 
 document.body.appendChild(footerNode);
-
-test.test();
