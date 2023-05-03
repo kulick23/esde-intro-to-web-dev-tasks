@@ -14,3 +14,86 @@
   padding: 24px;
 }
 */
+
+#Romanova .card {
+  max-width: 600px;
+  background-color: var(--color-white);
+  border: 1px solid rgba(29, 161, 242, 0.2);
+  box-shadow: 0px 15px 60px rgba(29, 161, 242, 0.15);
+  border-radius: 10px;
+  padding: 35px 30px;
+}
+
+#Romanova .card__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+#Romanova .user {
+  display: flex;
+  gap: 22px;
+}
+
+#Romanova .user__content {
+  color: var(--color-black);
+}
+
+#Romanova .user__image {
+  height: 50px;
+  width: 50px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 50%;
+}
+
+#Romanova .user__title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  color: var(--color-black);
+  margin: 0;
+}
+
+#Romanova .tag {
+  color: #1da1f2;
+}
+
+#Romanova .user a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+#Romanova .card__content {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 15px;
+}
+
+#Romanova .card__content p {
+  display: inline;
+}
+
+#Romanova .card__footer {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+#Romanova .like,
+#Romanova .time {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+#Romanova .like {
+  display: flex;
+  align-self: center;
+  gap: 10px;
+}
