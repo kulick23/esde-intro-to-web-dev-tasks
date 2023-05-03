@@ -1,0 +1,16 @@
+/* CRITICAL: USE #Piatrykhina AT THE BEGGINING OF EVERY CSS SELECTOR */
+
+/* Example 01 */
+/* 
+#Piatrykhina .portfolio-title {
+  color: red;
+  margin-bottom: 10px;
+}
+*/
+
+/* Example 02 */
+/* 
+#Piatrykhina article .portfolio-description {
+  padding: 24px;
+}
+*/

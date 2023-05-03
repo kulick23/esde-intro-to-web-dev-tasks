@@ -1,0 +1,16 @@
+/* CRITICAL: USE #Hatsenka AT THE BEGGINING OF EVERY CSS SELECTOR */
+
+/* Example 01 */
+/* 
+#Hatsenka .portfolio-title {
+  color: red;
+  margin-bottom: 10px;
+}
+*/
+
+/* Example 02 */
+/* 
+#Hatsenka article .portfolio-description {
+  padding: 24px;
+}
+*/

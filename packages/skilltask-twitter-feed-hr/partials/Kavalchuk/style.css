@@ -1,0 +1,16 @@
+/* CRITICAL: USE #Kavalchuk AT THE BEGGINING OF EVERY CSS SELECTOR */
+
+/* Example 01 */
+/* 
+#Kavalchuk .portfolio-title {
+  color: red;
+  margin-bottom: 10px;
+}
+*/
+
+/* Example 02 */
+/* 
+#Kavalchuk article .portfolio-description {
+  padding: 24px;
+}
+*/

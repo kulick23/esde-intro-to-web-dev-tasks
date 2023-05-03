@@ -1,0 +1,16 @@
+/* CRITICAL: USE #Drozhdzh AT THE BEGGINING OF EVERY CSS SELECTOR */
+
+/* Example 01 */
+/* 
+#Drozhdzh .portfolio-title {
+  color: red;
+  margin-bottom: 10px;
+}
+*/
+
+/* Example 02 */
+/* 
+#Drozhdzh article .portfolio-description {
+  padding: 24px;
+}
+*/

@@ -1,0 +1,16 @@
+/* CRITICAL: USE #Rushkevich AT THE BEGGINING OF EVERY CSS SELECTOR */
+
+/* Example 01 */
+/* 
+#Rushkevich .portfolio-title {
+  color: red;
+  margin-bottom: 10px;
+}
+*/
+
+/* Example 02 */
+/* 
+#Rushkevich article .portfolio-description {
+  padding: 24px;
+}
+*/

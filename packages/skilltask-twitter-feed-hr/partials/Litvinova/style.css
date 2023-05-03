@@ -1,0 +1,16 @@
+/* CRITICAL: USE #Litvinova AT THE BEGGINING OF EVERY CSS SELECTOR */
+
+/* Example 01 */
+/* 
+#Litvinova .portfolio-title {
+  color: red;
+  margin-bottom: 10px;
+}
+*/
+
+/* Example 02 */
+/* 
+#Litvinova article .portfolio-description {
+  padding: 24px;
+}
+*/

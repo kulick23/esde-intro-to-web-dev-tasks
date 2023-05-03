@@ -51,6 +51,12 @@ module.exports.tasks = [
   {
     id: "skilltask-twitter-feed-lr",
     type: "skilltask",
+    title: "Twitter Feed LR",
+    description: "Twitter Feed Collaboration for Low Residence Students",
+  },
+  {
+    id: "skilltask-twitter-feed-hr",
+    type: "skilltask",
     title: "Twitter Feed HR",
     description: "Twitter Feed Collaboration for Low Residence Students",
   }

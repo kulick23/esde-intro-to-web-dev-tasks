@@ -1,0 +1,16 @@
+/* CRITICAL: USE #Kravchenko AT THE BEGGINING OF EVERY CSS SELECTOR */
+
+/* Example 01 */
+/* 
+#Kravchenko .portfolio-title {
+  color: red;
+  margin-bottom: 10px;
+}
+*/
+
+/* Example 02 */
+/* 
+#Kravchenko article .portfolio-description {
+  padding: 24px;
+}
+*/

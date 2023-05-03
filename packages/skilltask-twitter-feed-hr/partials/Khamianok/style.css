@@ -1,0 +1,16 @@
+/* CRITICAL: USE #Khamianok AT THE BEGGINING OF EVERY CSS SELECTOR */
+
+/* Example 01 */
+/* 
+#Khamianok .portfolio-title {
+  color: red;
+  margin-bottom: 10px;
+}
+*/
+
+/* Example 02 */
+/* 
+#Khamianok article .portfolio-description {
+  padding: 24px;
+}
+*/

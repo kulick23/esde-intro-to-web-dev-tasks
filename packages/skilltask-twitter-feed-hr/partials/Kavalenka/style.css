@@ -1,0 +1,16 @@
+/* CRITICAL: USE #Kavalenka AT THE BEGGINING OF EVERY CSS SELECTOR */
+
+/* Example 01 */
+/* 
+#Kavalenka .portfolio-title {
+  color: red;
+  margin-bottom: 10px;
+}
+*/
+
+/* Example 02 */
+/* 
+#Kavalenka article .portfolio-description {
+  padding: 24px;
+}
+*/

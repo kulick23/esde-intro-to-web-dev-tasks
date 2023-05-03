@@ -1,0 +1,16 @@
+/* CRITICAL: USE #Malyshau AT THE BEGGINING OF EVERY CSS SELECTOR */
+
+/* Example 01 */
+/* 
+#Malyshau .portfolio-title {
+  color: red;
+  margin-bottom: 10px;
+}
+*/
+
+/* Example 02 */
+/* 
+#Malyshau article .portfolio-description {
+  padding: 24px;
+}
+*/

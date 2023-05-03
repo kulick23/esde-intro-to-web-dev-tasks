@@ -1,0 +1,16 @@
+/* CRITICAL: USE #Radchenko AT THE BEGGINING OF EVERY CSS SELECTOR */
+
+/* Example 01 */
+/* 
+#Radchenko .portfolio-title {
+  color: red;
+  margin-bottom: 10px;
+}
+*/
+
+/* Example 02 */
+/* 
+#Radchenko article .portfolio-description {
+  padding: 24px;
+}
+*/
