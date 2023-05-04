@@ -1,16 +1,82 @@
-/* CRITICAL: USE #Kazak AT THE BEGGINING OF EVERY CSS SELECTOR */
-
-/* Example 01 */
-/* 
-#Kazak .portfolio-title {
-  color: red;
-  margin-bottom: 10px;
+#Kazak .hero {
+  width: 600px;
+  padding: 35px 38px;
+  border: 1px solid rgba(29, 161, 242, 0.2);
+  box-shadow: 0px 15px 60px rgba(29, 161, 242, 0.15);
+  border-radius: 10px;
 }
-*/
 
-/* Example 02 */
-/* 
-#Kazak article .portfolio-description {
-  padding: 24px;
+#Kazak .header {
+  display: flex;
+  justify-content: space-between;
 }
-*/
+
+#Kazak .left_part {
+  display: flex;
+  gap: 20px;
+}
+
+#Kazak .right_part {
+  background-image: url('../../assets/icons/twitter-icon.svg');
+  height: 24px;
+  width: 28px;
+}
+
+#Kazak .header_img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: black;
+}
+
+#Kazak .nameitself {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  color: #000000;
+}
+
+#Kazak .nickname {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+#Kazak .main {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+
+  color: #000000;
+}
+
+#Kazak .hashtags {
+  text-decoration: none;
+  color: #1DA1F2;
+}
+
+#Kazak .footer {
+  margin-top: 15px;
+  display: flex;
+  gap: 12px;
+  font-weight: 600;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.6);
+  align-items: center;
+}
+
+#Kazak .footer_img {
+  background-image: url('../../assets/icons/heart-icon.svg');
+  height: 22px;
+  width: 24px;
+}
+#Kazak .footer_date{
+  margin-left: 8px;
+}
