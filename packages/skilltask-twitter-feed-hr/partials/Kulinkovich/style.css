@@ -1,16 +1,162 @@
-/* CRITICAL: USE #Kulinkovich AT THE BEGGINING OF EVERY CSS SELECTOR */
+#Kulinkovich .mainback{
+  position: absolute;
+  width: 1300px;
+  height: 343px;
+  left: 0px;
+  top: 0px;
+  background: #141D26;
+  margin-top: 3658px;
+  margin-left: 25px;
+  }
+ 
+  #Kulinkovich .box{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 35px 31px;
+    gap: 15px;
+    position: absolute;
+    width: 601px;
+    height: 190x;
+    margin-top: 25px;
+    margin-left: 300px;
+    background: #243447;
+    box-shadow: 0px 15px 60px rgba(52, 81, 116, 0.15);
+    border-radius: 10px;
+  }
+  
+  
+  #Kulinkovich .ava{
+  width: 50px;
+  height: 50px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  border-radius: 100px;
+  
+  }
+  #Kulinkovich .name{
+  width: 90px;
+  height: 23px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  color: #FFFFFF;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+   position: relative;
+  right:390px;
+  bottom:15px 
+  
+  }
+  #Kulinkovich .link{
+    width: 95px;
+    height: 20px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.6);
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    position: relative;
+    right:885px;
+    top:10px;
+    }
+  #Kulinkovich .dis{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 405px;
+  width: 539px;
+  height: 50px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  }
+ 
+#Kulinkovich .logo{
+position: absolute;
+left: 90%;
+right: 4.17%;
+top: 15%;
+bottom: 12.78%;
+width: 27.5px;
+height: 22.43;
+    }
+#Kulinkovich .text{
+ width: 539px;
+height: 52px;
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #FFFFFF;
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
 
-/* Example 01 */
-/* 
-#Kulinkovich .portfolio-title {
-  color: red;
-  margin-bottom: 10px;
 }
-*/
+#Kulinkovich .text-blue{
+  color:  #3366BB;
+}
 
-/* Example 02 */
-/* 
-#Kulinkovich article .portfolio-description {
-  padding: 24px;
+#Kulinkovich .like{
+  
+  width: 21px;
+  height: 19px;
+  position: relative;
+  right:10px;
+  top: 3px;
 }
-*/
+#Kulinkovich .frame{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 20px;
+  width: 232px;
+  height: 26px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+#Kulinkovich .num{
+  width: 25px;
+  height: 26px;
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  color: rgba(255, 255, 255, 0.6);
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  position: relative;
+  right:20px;
+
+}
+#Kulinkovich .time{
+width: 173px;
+height: 26px;
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 26px;
+color: rgba(255, 255, 255, 0.6);
+flex: none;
+order: 1;
+flex-grow: 0;
+}
