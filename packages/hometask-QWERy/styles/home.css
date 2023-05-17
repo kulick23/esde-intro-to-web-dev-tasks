@@ -69,20 +69,14 @@ top: calc(50% - 25px/2 + 2px);
       }
 
 .social{
-    display: grid;
-    grid-template-rows: 3fr 1fr 1fr 1fr;
         position: absolute;
         width: 25px;
         height: 214px;
         left: 79px;
         top: 359px;
-        grid-template-areas: 
-        "text"
-        "inst"
-        "twit" 
-        "face";
           }
           .social-text{
+            grid-area: text;
             font-weight: 500;
             font-size: 18px;
             line-height: 25px;
@@ -91,18 +85,7 @@ top: calc(50% - 25px/2 + 2px);
           }
           .social-inst, .social-twit, .social-face{
             position: relative;
-            left: 10%;
-              }
-              .social-inst{
-              top: 35%;
-              }
-              .social-twit{
-                top: 45%;
-              }
-              .social-face{
-                  top: 55%;
-                  left: 20%;
-              }
+          }
       .home-content{
         display: flex;
         flex-direction: column;
