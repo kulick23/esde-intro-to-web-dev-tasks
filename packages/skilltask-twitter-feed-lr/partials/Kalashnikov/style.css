@@ -14,3 +14,136 @@
   padding: 24px;
 }
 */
+
+/* #Kalashnikov main{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+} */
+
+#Kalashnikov .art{
+  background-color: #243447;
+  /* width: 100%; */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#Kalashnikov .art-p{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #000000;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  max-width: 540px;
+}
+
+#Kalashnikov .tag{
+  color: #1DA1F2;
+  text-decoration: none;
+}
+
+#Kalashnikov .container{
+  width: 600px;
+  background: #FFFFFF;
+  border: 1px solid rgba(29, 161, 242, 0.2);
+  box-shadow: 0px 15px 60px rgba(29, 161, 242, 0.15);
+  border-radius: 10px;
+  padding: 0;
+}
+
+#Kalashnikov .twitter-container {
+  margin: 35px 31px;
+}
+
+#Kalashnikov .avatar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#Kalashnikov .avatar-circle{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgb(124, 43, 43);
+}
+
+#Kalashnikov .avatar-container{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#Kalashnikov .avatar-description{
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 22px;
+}
+
+#Kalashnikov .avatar-description h6{
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  color: #000000;
+}
+
+
+#Kalashnikov .avatar-description a{
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.6);
+  text-decoration: none;
+}
+
+#Kalashnikov h6{
+  margin: 0;
+}
+
+#Kalashnikov .reaction-container{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#Kalashnikov .reaction{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60px;
+  height: 26px;
+}
+
+#Kalashnikov .reaction p{
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+#Kalashnikov .reaction-container-p {
+  margin: 0;
+  margin-left: 20px;
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  color: rgba(0, 0, 0, 0.6);
+}

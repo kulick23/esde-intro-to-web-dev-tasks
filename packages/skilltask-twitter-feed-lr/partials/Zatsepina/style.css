@@ -1,16 +1,114 @@
-/* CRITICAL: USE #Zatsepina AT THE BEGGINING OF EVERY CSS SELECTOR */
 
-/* Example 01 */
-/* 
-#Zatsepina .portfolio-title {
-  color: red;
-  margin-bottom: 10px;
+#Zatsepina .tweet-card {
+  width: 600px;
+  padding: 16px;
+  display: flex;
+  background-color: #FFFFFF;
+  align-items: flex-start;
+  border: 1px solid rgba(29, 161, 242, 0.2);
+  box-shadow: 0px 15px 60px rgba(29, 161, 242, 0.15);
+  border-radius: 10px;
 }
-*/
 
-/* Example 02 */
-/* 
-#Zatsepina article .portfolio-description {
-  padding: 24px;
+
+#Zatsepina .profile-circle {
+  width: 48px;
+  height: 48px;
+  margin-right: 22px;
+  border-radius: 50%;
+  background-color: #000;
 }
-*/
+
+
+#Zatsepina .user-info {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  display: flex;
+  margin-bottom: 8px;
+  flex-direction: column;
+}
+
+#Zatsepina .user-info .name {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: bold;
+  margin-right: 8px;
+}
+
+#Zatsepina .user-info .username {
+  font-size: 16px;
+  line-height: 20px;
+
+  margin-right: 8px;
+
+}
+#Zatsepina a{
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+#Zatsepina .twitter-icon {
+  display: inline-block;
+  width: 27.5px;
+  height: 22.43px;
+  margin-left: auto;
+}
+
+#Zatsepina .tweet-text {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  margin-top: 18px;
+  margin-bottom: 15px;
+}
+#Zatsepina .tweet-text .heshtags{
+  color:#1DA1F2;
+}
+
+#Zatsepina .tweet-stats {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+
+#Zatsepina .headerrow{
+  display: flex;
+  align-items: flex-start;
+  
+}
+
+#Zatsepina .heart-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 11.55px;
+}
+
+#Zatsepina .likes-count {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  color: rgba(0, 0, 0, 0.6);
+  margin-right: 20px;
+}
+
+#Zatsepina .timestamp {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  color: rgba(0, 0, 0, 0.6);
+}

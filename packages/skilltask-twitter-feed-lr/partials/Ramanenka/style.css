@@ -1,16 +1,86 @@
-/* CRITICAL: USE #Ramanenka AT THE BEGGINING OF EVERY CSS SELECTOR */
-
-/* Example 01 */
-/* 
-#Ramanenka .portfolio-title {
-  color: red;
-  margin-bottom: 10px;
+#Ramanenka .card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 600px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: var(--color-white);
+  border: 1px solid rgba(0, 221, 255, 0.2);
+  box-shadow: 11px 2px 30px 8px rgba(0, 221, 255, 0.2);
 }
-*/
 
-/* Example 02 */
-/* 
-#Ramanenka article .portfolio-description {
-  padding: 24px;
+#Ramanenka .card__line_first {
+  display: flex;
+  justify-content: space-between;
 }
-*/
+
+#Ramanenka .card__avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: aquamarine;
+}
+
+#Ramanenka .card__info {
+  display: flex;
+  width: 190px;
+  justify-content: space-between;
+}
+
+#Ramanenka .card__description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3px;
+}
+
+#Ramanenka .card__heart {
+  width: 25px;
+  height: 25px;
+}
+
+#Ramanenka .card__stats {
+  display: flex;
+  width: 60px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#Ramanenka .card__line_third {
+  display: flex;
+  font-weight: 600;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 215px;
+}
+
+#Ramanenka .card__logo {
+  width: 30px;
+  height: 30px;
+}
+
+#Ramanenka .card__hashtag {
+  text-decoration: inherit;
+  color: var(--color-primary);
+}
+
+#Ramanenka .card__name {
+  font-weight: bold;
+  color: var(--color-black);
+
+}
+
+#Ramanenka .card__email {
+  color: var(--color-grey);
+  text-decoration: inherit;
+}
+
+#Ramanenka .card__text {
+  color: var(--color-black)
+}
+
+#Ramanenka .card__line_third {
+  color: var(--color-grey)
+}
+

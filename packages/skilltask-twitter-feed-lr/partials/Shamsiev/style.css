@@ -1,16 +1,93 @@
-/* CRITICAL: USE #Shamsiev AT THE BEGGINING OF EVERY CSS SELECTOR */
-
-/* Example 01 */
-/* 
-#Shamsiev .portfolio-title {
-  color: red;
-  margin-bottom: 10px;
+#Shamsiev .tw {
+  width: 600px;
+  padding: 35px 30px 30px 30px;
+  box-sizing: border-box;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  box-shadow: 0px 15px 60px rgba(52, 81, 116, 0.15);
+  border-radius: 10px;
+  background-color: #243447;
 }
-*/
 
-/* Example 02 */
-/* 
-#Shamsiev article .portfolio-description {
-  padding: 24px;
+#Shamsiev .tw__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
 }
-*/
+
+#Shamsiev .tw__personal {
+  display: flex;
+  align-items: center;
+}
+
+#Shamsiev .tw__photo {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(224, 19, 175, 1) 35%,
+    rgba(7, 49, 148, 1) 48%,
+    rgba(6, 68, 160, 1) 54%,
+    rgba(5, 87, 172, 1) 60%,
+    rgba(199, 3, 148, 1) 73%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  border-radius: 50%;
+}
+
+#Shamsiev .tw__contacts {
+  display: flex;
+  flex-direction: column;
+}
+
+#Shamsiev .tw__name {
+  margin-bottom: 1px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+#Shamsiev .tw__email {
+  line-height: 20px;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
+#Shamsiev .tw__description {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+#Shamsiev .tw__hash {
+  color: #1da1f2;
+  text-decoration: none;
+}
+
+#Shamsiev .tw__footer {
+  display: flex;
+  opacity: 0.6;
+}
+
+#Shamsiev .tw__likes {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  font-weight: 600;
+}
+
+#Shamsiev .tw__likes svg {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+#Shamsiev .tw__time {
+  font-weight: 600;
+}
