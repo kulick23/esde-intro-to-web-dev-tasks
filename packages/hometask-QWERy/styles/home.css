@@ -1,0 +1,148 @@
+.header{
+position: absolute;
+width: 1751px;
+height: 25px;
+left: 85px;
+top: 64px;
+}
+.qwery{
+position: absolute;
+width: 87px;
+height: 33px;
+left: 0px;
+top: -6px;
+font-weight: 700;
+font-size: 24px;
+line-height: 33px;
+letter-spacing: 0.01em;
+text-transform: capitalize;
+}      
+.home{
+position: absolute;
+width: 348px;
+height: 25px;
+left: 702px;
+top: 2px;
+}
+.home-text, .home-text2, .home-text3{
+position: absolute;
+top: calc(50% - 25px/2 + 2px);
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    }
+.home-text{
+    left: calc(50% - 105px/2 - 121px);
+    }
+.home-text2{
+      left: calc(50% - 78px/2 + 20.5px);
+      }
+.home-text3{
+      left: calc(50% - 65px/2 + 142px);
+      }
+.home-icon{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 1663px;
+    top: 2px;
+      }
+.home-search{
+        position: absolute;
+        width: 54px;
+        height: 23px;
+        left: 1697px;
+        top: 0px;
+        font-weight: 400;
+        line-height: 23px;
+        background: transparent;
+        border: none;
+        color: #FFFFFF;
+        font-size: 17px;
+        opacity: 0.5;
+      }
+
+
+      .social{
+        display: grid;
+        grid-template-rows: 3fr 1fr 1fr 1fr;
+        position:relative;
+        width: 25px;
+        height: 214px;
+        left: 79px;
+        top: 359px;
+        grid-template-areas: 
+        "text"
+        "inst"
+        "twit"
+        "face";
+          }
+          .social-text{
+            grid-area: text;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 25px;
+            writing-mode: vertical-lr; 
+            white-space: nowrap;
+          }
+          .social-inst{
+          grid-area: inst;
+          }
+          .social-twit{
+           grid-area: twit;
+          }
+          .social-face{
+              grid-area: face;
+          }
+      .home-content{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 32px;
+        position: absolute;
+        width: 950px;
+        height: 261px;
+        left: 500px;
+        top: 287px;
+      }
+      .home-group{
+        width: 950px;
+        height: 25px;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+      }
+      .home-text4, .home-text5{
+        text-transform: capitalize;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+      }
+      .home-text4{
+        font-weight: 700;
+        font-size: 96px;
+        line-height: 100px;
+      }
+      .home-text5{
+        font-weight: 400;
+        font-size: 88px;
+        line-height: 50px;
+      }
+      .home-more{
+    position: absolute;
+    width: 126px;
+    height: 26px;
+    left: 897px;
+top: 673px;
+      }
+      .home-more-text{
+    position: absolute;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+      }
+      .home-row{
+        position: absolute;
+        right: 0%;
+      }
