@@ -14,3 +14,24 @@
   padding: 24px;
 }
 */
+#Kavalenka .dot {
+  width: 711.27px;
+  height: 711.27px;
+  left: 611px;
+  top: 356.75px;
+  background: linear-gradient(143.15deg, #EB00FF 8.37%, rgba(255, 0, 168, 0) 91.49%);
+  filter: blur(100px);
+  border-radius: 50%;
+  display: inline-block;
+}
+
+#Kavalenka .main_container{
+  display: flex;
+  justify-content: space-between;
+}
+
+#Kavalenka .text_container {
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+}
