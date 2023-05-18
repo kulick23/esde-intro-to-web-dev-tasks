@@ -14,3 +14,142 @@
   padding: 24px;
 }
 */
+
+#Mialeshka * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+#Mialeshka article {
+  font-size: 16px;
+}
+
+#Mialeshka .tweet__section {
+  background-color: #ECF8FF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 923px;
+  margin: 0 auto;
+}
+
+#Mialeshka .tweet__wrapper {
+  padding: 186px 151px;
+}
+
+#Mialeshka .tweet__wrapper__content {
+  padding: 35px 31px;
+  border: 1px solid rgba(29, 161, 242, 0.2);
+  border-radius: 10px;
+  box-shadow: 0 15px 60px rgba(52, 81, 116, 0.15);
+  max-width: 600px;
+}
+
+#Mialeshka .tweet__author {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 18px;
+}
+
+#Mialeshka .tweet__author__group {
+  display: flex;
+}
+
+#Mialeshka .tweet__author__img {
+  background-image: url("../../assets/assets-meleshko/img.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 22px;
+}
+
+#Mialeshka .tweet__author__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+#Mialeshka .tweet__author__info-name {
+  color: #000000;
+  font-size: 1.125rem;
+  line-height: 1.42rem;
+  font-weight: 700;
+  margin-bottom: 1px;
+}
+
+#Mialeshka .tweet__author__info-nickname a{
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 1rem;
+  line-height: 1.26rem;
+  font-weight: 400;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+#Mialeshka .tweet__author__info-nickname a:hover {
+  color: #1DA1F2;
+}
+
+#Mialeshka .tweet__author__icon {
+  display: flex;
+  align-items: center;
+}
+
+#Mialeshka .tweet__author__icon svg {
+  fill: #1DA1F2;
+  width: 30px;
+  height: 30px;
+}
+
+#Mialeshka .tweet__text {
+  margin-bottom: 15px;
+  font-weight: 400;
+  line-height: 1.625rem;
+  text-align: left;
+  color: #000000;
+}
+
+#Mialeshka .tweet__text__hashtags {
+  color: #1DA1F2;
+}
+
+#Mialeshka .tweet__data {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: rgba(0,0,0,0.6);
+}
+
+#Mialeshka .tweet__data__likes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#Mialeshka .tweet__data__likes span, .tweet__data__time {
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.625rem;
+}
+
+#Mialeshka .tweet__data__likes {
+  margin-right: 20px;
+}
+
+#Mialeshka .tweet__data__likes svg {
+  cursor: pointer;
+  margin-right: 10px;
+  transition: 0.3s;
+}
+
+#Mialeshka .tweet__data__likes svg:hover {
+  fill: #ff0202
+}
+
+/*add smth*/
