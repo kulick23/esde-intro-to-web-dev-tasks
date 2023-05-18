@@ -1,0 +1,57 @@
+.content3 {
+    width: 1463px;
+    height: 720px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+  }
+  .culture {
+    width: 632px;
+    height: 488px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 27px;
+    position: relative;
+    left: 2.91%;
+    right: 53.9%;
+    top: 15.99%;
+    bottom: 16.23%;
+  }
+  .culture-tagline {
+    width: 400px;
+    height: 25px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  .culture-text {
+    position: absolute;
+    top: 11%;
+    width: 555px;
+    height: 261px;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 87px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  
+  .culture-text2 {
+    position: absolute;
+    top: 70%;
+    width: 632px;
+    height: 96px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+  }
+  .culture-img {
+    float: right;
+    margin: -33.5% 0px 10px 10px;
+  }
