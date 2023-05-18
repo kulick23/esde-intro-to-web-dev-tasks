@@ -1,0 +1,51 @@
+.content1 {
+    width: 1462px;
+    height: 721px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.holiday {
+    position: absolute;
+    left: 0px;
+    top: 1px;
+}
+
+.holiday-content {
+    width: 632px;
+    height: 546px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 27px;
+    position: absolute;
+    left: 56.77%;
+    right: 0%;
+    top: 2%;
+    bottom: 12.07%;
+}
+
+.holiday-text  {
+    position: absolute;
+    top: 8%;
+    width: 400px;
+    height: 261px;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 87px;
+    order: 1;
+    flex-grow: 0;
+}
+
+.holiday-text2 {
+    position: absolute;
+    top: 60%;
+    width: 550px;
+    height: 160px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+    order: 2;
+    flex-grow: 0;
+  }
