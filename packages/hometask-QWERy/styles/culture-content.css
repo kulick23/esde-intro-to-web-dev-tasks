@@ -1,4 +1,5 @@
 .content3 {
+  position: relative;
     width: 1463px;
     height: 720px;
     flex: none;
@@ -51,7 +52,9 @@
     order: 2;
     flex-grow: 0;
   }
+  
   .culture-img {
-    float: right;
-    margin: -33.5% 0px 10px 10px;
+    position: absolute;
+    right: 0%;
+    top: 0%
   }

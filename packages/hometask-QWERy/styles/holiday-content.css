@@ -6,11 +6,11 @@
     flex-grow: 0;
 }
 
-.holiday {
+ .holiday {
     position: absolute;
     left: 0px;
     top: 1px;
-}
+}  
 
 .holiday-content {
     width: 632px;

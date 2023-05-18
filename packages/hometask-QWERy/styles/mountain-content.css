@@ -42,15 +42,13 @@
     width: 1163px;
     border-radius: 0px;
 }
-
-.mountain-line {
+.mountain-line, .mountain-line2 {
     position: absolute;
     width: 72px;
     height: 2px;
     top: 50%;
     background: #FBD784;
 }
-
 .mountain-bromo {
     position: absolute;
     width: 94px;
@@ -65,12 +63,7 @@
 }
 
 .mountain-line2 {
-    position: absolute;
-    width: 72px;
-    height: 2px;
-    top: 50%;
     right: 0%;
-    background: #FBD784;
 }
 
 .mountain-text {
