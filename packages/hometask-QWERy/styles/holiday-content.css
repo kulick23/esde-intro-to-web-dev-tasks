@@ -6,11 +6,11 @@
     flex-grow: 0;
 }
 
- .holiday {
+.holiday {
     position: absolute;
     left: 0px;
     top: 1px;
-}  
+}
 
 .holiday-content {
     width: 632px;
@@ -27,25 +27,15 @@
 }
 
 .holiday-text {
-    position: absolute;
     top: 8%;
     width: 400px;
-    height: 261px;
-    font-weight: 700;
-    font-size: 64px;
-    line-height: 87px;
     order: 1;
     flex-grow: 0;
 }
 
 .holiday-text2 {
-    position: absolute;
     top: 60%;
     width: 550px;
-    height: 160px;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 32px;
     order: 2;
     flex-grow: 0;
 }

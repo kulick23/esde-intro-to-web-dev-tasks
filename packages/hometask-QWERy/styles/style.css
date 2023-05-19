@@ -56,19 +56,28 @@ a:link {
 }
 
 .line {
+  left: 0px;
+  top: 10px;
+}
+
+.line,
+.mountain-line,
+.mountain-line2 {
   position: absolute;
   width: 72px;
   height: 2px;
-  left: 0px;
-  top: 10px;
   background: #FBD784;
 }
 
 .line-text {
-  position: absolute;
-  height: 25px;
   left: 96px;
   top: 0px;
+}
+
+.line-text,
+.mountain-bromo {
+  position: absolute;
+  height: 25px;
   font-weight: 700;
   font-size: 18px;
   line-height: 25px;
@@ -78,11 +87,15 @@ a:link {
 }
 
 .line-block {
+  bottom: 0%;
+
+}
+
+.line-block,
+.mountain-block {
   position: absolute;
   width: 127px;
   height: 25px;
-  bottom: 0%;
-
 }
 
 .line-text4 {
@@ -100,4 +113,22 @@ a:link {
   position: absolute;
   right: 7%;
   top: 30%;
+}
+
+.holiday-text,
+.mountain-text,
+.culture-text {
+  position: absolute;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 87px;
+}
+
+.holiday-text2,
+.culture-text2,
+.mountain-text2 {
+  position: absolute;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 32px;
 }

@@ -8,13 +8,15 @@
 }
 
 .footer-block {
+    position: relative;
     width: 1460.72px;
     height: 125.83px;
 }
 
 .footer-logo {
-    float: left;
-    margin: 12px 0px 0px 4px;
+    position: absolute;
+    left: 4px;
+    top: 12px;
     font-weight: 700;
     font-size: 48px;
     line-height: 65px;
@@ -57,16 +59,19 @@
 }
 
 .hr1 {
-    margin-top: 4%;
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
 }
 
 .footer-row {
+    position: absolute;
+    top: 181px;
     display: grid;
     grid-template-columns: 400px 147px 92px 106px;
     column-gap: 15%;
     width: 1364.11px;
     height: 248px;
-    margin-top: 5%;
     grid-template-areas:
         "info service about helpp";
 }
@@ -131,8 +136,9 @@
 }
 
 .footer-mail-text {
-    margin-left: 15px;
-    margin-top: 10px;
+    position: absolute;
+    left: 15px;
+    top: 10px;
     font-weight: 400;
     font-size: 15px;
     line-height: 20px;
@@ -162,10 +168,9 @@
 
 .footer-mail-button {
     position: absolute;
-    top: -4%;
+    bottom: 9px;
     height: 69.13580322265625px;
     width: 69.13577270507812px;
-    margin-bottom: -100px;
     right: 0%;
     background: #FFA343;
     border-radius: 8px 8px 0px 0px;

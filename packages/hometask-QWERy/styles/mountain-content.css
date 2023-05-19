@@ -42,24 +42,14 @@
     width: 1163px;
     border-radius: 0px;
 }
-.mountain-line, .mountain-line2 {
-    position: absolute;
-    width: 72px;
-    height: 2px;
+
+.mountain-line,
+.mountain-line2 {
     top: 50%;
-    background: #FBD784;
 }
+
 .mountain-bromo {
-    position: absolute;
-    width: 94px;
-    height: 25px;
     left: 34%;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 25px;
-    letter-spacing: 6px;
-    text-transform: uppercase;
-    color: #FBD784;
 }
 
 .mountain-line2 {
@@ -67,33 +57,20 @@
 }
 
 .mountain-text {
-    position: absolute;
     width: 705px;
-    height: 174px;
     right: -69%;
     top: 49px;
-    font-weight: 700;
-    font-size: 64px;
-    line-height: 87px;
     text-align: center;
 }
 
 .mountain-text2 {
-    position: absolute;
     width: 934px;
-    height: 96px;
     right: -100%;
     top: 250px;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 32px;
     text-align: center;
 }
 
 .mountain-block {
-    position: absolute;
-    width: 127px;
-    height: 25px;
     top: 380px;
     right: 40%;
 }
