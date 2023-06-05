@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+}
+
+* {
+  outline: 1px solid tomato;
+}
+
+.container {
+  max-width: 1070px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
+@mixin desktop {
+  @media (min-width: 700px) {
+    @content;
+  }
+}
+
+.main-content {
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+.bg-pink {
+  background-color: rgba(188, 102, 160, 0.15);
+}
+
+.hero {
+  display: grid;
+  row-gap: 30px;
+
+  grid-template-areas: 'adv' 'slider' 'contact-us';
+
+  @include desktop {
+    grid-template-areas: 'adv slider'
+    'contact-us slider';
+    grid-template-columns: 1fr 1fr;
+  }
+
+  &__adv {
+    grid-area: adv;
+
+    h1 {
+      display: none;
+      @include desktop {
+        display: block;
+      }
+    }
+  }
+
+  &__slider {
+    position: relative;
+    grid-area: slider;
+  } 
+
+  &__contact-us {
+    grid-area: contact-us;
+  }
+}
+
+.slider-container {
+  position: absolute;
+  width: 150vw;
+  border: 1px solid red;
+}
