@@ -1,0 +1,35 @@
+/* Download font 'Rubik' from the internet */
+/* If you'd like, you could use your own font. Please go to https://fonts.google.com/ and choose your favourite */
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* This is called CSS Custom Properties */
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties */
+:root {
+  --main-bg-color: #ffffff;
+  --color-black: #000000;
+  --color-white: #ffffff;
+  --color-red: #ff4948;
+}
+
+/* COMMON PAGE STYLES */
+html {
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  background-color: var(--main-bg-color);
+  color: var(--color-black);
+}
+
+body {
+  width: 100%;
+}
+
+.app {
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  .app {
+    max-width: 1280px;
+  }
+}
