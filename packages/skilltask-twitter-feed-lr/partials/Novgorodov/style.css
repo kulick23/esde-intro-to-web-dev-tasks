@@ -14,3 +14,92 @@
   padding: 24px;
 }
 */
+
+#Novgorodov container {
+  width: 600px;
+  border-radius: 10px;
+  background-color: #FFFFFF;
+  padding: 34px 30px 34px 30px;
+  border: 1px solid #1DA1F2;
+  box-shadow: 0px 15px 60px rgba(29, 161, 242, 0.15);
+  font-size: 18px;
+}
+
+#Novgorodov p {
+  margin: 0;
+}
+
+#Novgorodov .header_twitt {
+  display: flex;
+  justify-content: space-between;
+}
+
+#Novgorodov .avatar {
+  display: flex;
+}
+
+#Novgorodov .user_wrap {
+  display:flex;
+  flex-direction: column;
+  margin-left: 22px;
+  align-self: center;
+}
+
+#Novgorodov .picture {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: slategrey;
+}
+
+#Novgorodov .user_name {
+  font-weight: 700;
+  line-height: 22px;
+}
+
+#Novgorodov .user_link {
+  font-size: 16px;
+  line-height: 22px;
+  color: rgba(0, 0, 0, 0.6);
+  text-decoration: none;
+}
+
+#Novgorodov .logo {
+  align-self: center;
+}
+
+#Novgorodov .twitt_content {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+}
+
+#Novgorodov .twitt_content {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+#Novgorodov .hashtag {
+  color: rgba(29, 161, 242, 1);
+}
+
+#Novgorodov .like_wrap {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 600;
+  margin-top: 18px;
+  display: flex;
+  align-items: center;
+}
+
+#Novgorodov .like_wrap .like_count {
+  margin-left: 12px;
+}
+
+#Novgorodov .like_wrap .twitt_date {
+  margin-left: 20px;
+}
+
+
+

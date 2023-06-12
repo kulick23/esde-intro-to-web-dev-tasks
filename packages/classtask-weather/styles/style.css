@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+/* This is called CSS Custom Properties */
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties */
+:root {
+  --main-bg-color: #fcfcff;
+  --color-black: #383838;
+  --color-white: #ffffff;
+  --color-blue-gray: #697586;
+  --color-gray: #dfe1e3;
+  --color-lilac: #b0a6bd;
+  --color-pink: #f5a3b7;
+  --color-light-pink: #fee2e3;
+  --color-green: #7fccc6;
+  --color-red: #e77373;
+  --color-orange: #fdb64e;
+}
+
+/* COMMON PAGE STYLES */
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  background-color: var(--main-bg-color);
+  color: var(--color-black);
+}

@@ -14,3 +14,95 @@
   padding: 24px;
 }
 */
+
+#Zimahorav * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+#Zimahorava a {
+  text-decoration: none;
+}
+
+#Zimahorava .twitt {
+  width: 600px;
+  margin: 0 auto;
+  padding: 35px 31px;
+  border: 1px solid #1da1f233;
+  border-radius: 10px;
+  box-shadow: #1da1f233 0px 7px 29px 0px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  color: #000;
+}
+
+#Zimahorava .twitt-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#Zimahorava .twitt-header-user {
+  display: flex;
+}
+
+#Zimahorava .user-pic {
+  background: #77c3c7;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
+ 
+#Zimahorava .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 22px;
+}
+
+#Zimahorava .name {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+#Zimahorava .user-mail a {
+  font-weight: 400;
+  color: var(--color-black);
+}
+#Zimahorava .user-mail a:hover {
+  color: var(--color-primary);
+}
+
+#Zimahorava .twitt-tweet {
+  font-weight: 400;
+  margin-bottom: 15px; 
+  text-align: left;
+  margin-top:15px;
+}
+
+#Zimahorava .tag {
+  color: var(--color-primary);
+}
+
+#Zimahorava .tag:hover {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+
+#Zimahorava .twitt-footer {
+  display: flex;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 600;
+  line-height: 162%;
+}
+
+#Zimahorava .like-img {
+  margin-right: 10px;
+}
+
+#Zimahorava .like-num {
+  margin-right: 20px;
+}

@@ -1,16 +1,89 @@
-/* CRITICAL: USE #Grasevich AT THE BEGGINING OF EVERY CSS SELECTOR */
-
-/* Example 01 */
-/* 
-#Grasevich .portfolio-title {
-  color: red;
-  margin-bottom: 10px;
+#Grasevich p {
+  margin: 0;
+  color: var(--color-black);
+  font-family: "Source Sans Pro", "Poppins", "Inter", sans-serif;
+  font-size: 16px;
 }
-*/
 
-/* Example 02 */
-/* 
-#Grasevich article .portfolio-description {
-  padding: 24px;
+#Grasevich .wrapper {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-*/
+
+#Grasevich .card {
+  background-color: var(--color-white);
+  width: 600px;
+  border: 1px solid rgba(29, 161, 242, 0.2);
+  box-shadow: 0 15px 60px rgba(29, 161, 242, 0.15);
+  border-radius: 10px;
+  padding: 38px 32px 35px 31px;
+}
+
+#Grasevich .tweet-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+#Grasevich .personal-info {
+  display: flex;
+}
+
+#Grasevich .personal-info img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+#Grasevich .nickname {
+  margin-left: 22px;
+}
+
+#Grasevich .nickname p {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  margin-bottom: 5px;
+}
+
+#Grasevich .nickname a {
+  color: var(--color-grey);
+}
+
+#Grasevich .tweet-head > img {
+  height: 22px;
+  width: 28px;
+}
+
+#Grasevich .tweet-text {
+  margin-bottom: 15px;
+}
+
+#Grasevich .tweet-text p {
+  line-height: 26px;
+}
+
+#Grasevich .tweet-text span {
+  color: var(--color-primary);
+}
+
+#Grasevich .tweet-info {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#Grasevich .tweet-info p {
+  color: var(--color-grey);
+  font-weight: 600;
+  line-height: 26px;
+}
+
+#Grasevich .tweet-info > p:first-of-type {
+  margin: 0 20px 0 12px;
+}
+

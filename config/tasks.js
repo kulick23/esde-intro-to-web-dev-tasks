@@ -19,6 +19,20 @@ module.exports.tasks = [
       "Langing page for a Pet Adoption Website (mobile and desktop layouts)",
   },
   {
+    id: "hometask-music",
+    type: "hometask",
+    title: "Music",
+    description:
+      "Langing page for a Music Website",
+  },
+  {
+    id: "hometask-beats",
+    type: "hometask",
+    title: "Beats",
+    description:
+      "Langing page for a Beats Website",
+  },
+  {
     id: "classtask-YuliaVorman",
     type: "classtask",
     title: "YuliaVorman",

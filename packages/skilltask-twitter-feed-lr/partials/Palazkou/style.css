@@ -1,16 +1,79 @@
-/* CRITICAL: USE #Palazkou AT THE BEGGINING OF EVERY CSS SELECTOR */
-
-/* Example 01 */
-/* 
-#Palazkou .portfolio-title {
-  color: red;
-  margin-bottom: 10px;
+#Palazkou .flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-*/
 
-/* Example 02 */
-/* 
-#Palazkou article .portfolio-description {
-  padding: 24px;
+#Palazkou .wrapper {
+  color: var(--color-black);
+  padding: 2rem;
 }
-*/
+
+#Palazkou .twitter_card {
+  max-width: 60rem;
+  width: 100%;
+  background-color: var(--color-main-bg);
+  box-shadow: 0 .15rem 6rem rgb(29, 161, 242, .2);
+  border: .1rem solid rgba(29, 161, 242, 0.2);
+  border-radius: 1rem;
+  padding: 3.4rem 3rem;
+}
+
+#Palazkou .card_head {
+  justify-content: space-between;
+  margin-bottom: 1.4rem;
+}
+
+#Palazkou .head_user {
+  gap: 2.2rem;
+}
+
+#Palazkou .head_link svg {
+  fill: var(--color-primary);
+}
+
+#Palazkou .user_ava {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+}
+
+#Palazkou .user_name {
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+  font-weight: 700;
+}
+
+#Palazkou .user_email {
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+  color: var(--color-grey);
+}
+
+#Palazkou .card_content {
+  margin-bottom: 1.5rem;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+}
+
+#Palazkou .accent_text {
+  color: var(--color-primary);
+}
+
+#Palazkou .card_footer {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  color: var(--color-grey);
+  font-weight: 600;
+}
+
+#Palazkou .footer_like {
+  gap: 1.2rem;
+}
+
+#Palazkou .like_amount,
+#Palazkou .footer_date {
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+}

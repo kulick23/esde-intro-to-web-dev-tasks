@@ -14,3 +14,81 @@
   padding: 24px;
 }
 */
+#Shkred article {
+  width: 600px;
+  margin: 0 auto;
+  border: 1px;
+  border-radius: 10px; 
+  background-color: var(--color-white);
+  padding: 35px 31px ;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  box-shadow: #1da1f233 0px 7px 29px 0px;
+}
+
+#Shkred .user-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+#Shkred .user-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: linear-gradient(90deg, rgb(17, 27, 217) 0%, rgb(45, 130, 228) 50%, rgba(50, 205, 233, 0.966) 100%);
+}
+#Shkred .person{
+  display: flex;
+}
+
+#Shkred .user-initials {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 20px;
+}
+#Shkred .user-name {
+  font-weight: 700;
+  font-size: 18px;
+  color: var (--color-black);
+}
+
+#Shkred .user-mail a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20.11px;
+  color: rgba(0, 0, 0, 0.6);
+}
+#Shkred .bird{
+  justify-content: flex-start;
+  padding-left: 300px;
+}
+
+#Shkred .content {
+  margin: 18px 0;
+  font-weight: 400;
+  line-height: 162%;
+  font-style: normal;
+
+}
+#Shkred .hashtag {
+  color: var(--color-primary);
+}
+
+#Shkred .footer {
+  display: flex;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 162%;
+}
+#Shkred .like {
+  margin-right: 10px;
+}
+
+#Shkred .number-of-like {
+  margin-right: 20px;
+}

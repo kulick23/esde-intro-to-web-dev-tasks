@@ -1,16 +1,81 @@
-/* CRITICAL: USE #Korsak AT THE BEGGINING OF EVERY CSS SELECTOR */
+#Korsak a {
+  text-decoration: none;
+}
 
-/* Example 01 */
-/* 
+#Korsak section {
+  background-color: white;
+  max-width: 600px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 35px 31px;
+  border-radius: 10px;
+  border: 1px solid rgb(29, 161, 242, 0.2);
+  box-shadow: 0px 0px 60px 0px rgb(29, 161, 242, 0.15);
+  font-family: "Source Sans Pro", serif;
+}
+
 #Korsak .portfolio-title {
-  color: red;
-  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-*/
 
-/* Example 02 */
-/* 
-#Korsak article .portfolio-description {
-  padding: 24px;
+#Korsak .portfolio-title-user {
+  display: flex;
 }
-*/
+
+#Korsak .user-avatar {
+  height: 50px;
+  width: 50px;
+  background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(252, 70, 107, 1) 100%
+  );
+  border-radius: 50%;
+}
+
+#Korsak .user-avatar + .user-info {
+  margin-left: 22px;
+  align-self: center;
+}
+#Korsak .user-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+#Korsak p {
+  margin: 0px;
+  line-height: 26px;
+}
+
+#Korsak .portfolio-message {
+  margin: 15px 0;
+}
+
+#Korsak .portfolio-message-hashtag {
+  color: rgba(29, 161, 242, 1);
+}
+
+#Korsak .user-mail {
+  color: rgba(0, 0, 0, 0.6);
+  margin-top: 1px;
+  line-height: 20px;
+}
+
+#Korsak .portfolio-footer {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 600;
+}
+
+#Korsak .footer-likes {
+  display: flex;
+  align-items: center;
+}
+#Korsak .footer-likes-icon + .footer-likes-counter {
+  margin-left: 10px;
+}
