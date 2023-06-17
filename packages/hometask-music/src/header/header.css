@@ -1,0 +1,22 @@
+
+
+.header{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    margin-left: 5%;
+}
+.header__logo{
+    height: 100%;
+}
+.header__links{
+margin-left: -70px;
+align-items: center;
+position: relative;
+display: flex;
+justify-content: space-between;
+z-index: 1;
+gap: 20px;
+}
+

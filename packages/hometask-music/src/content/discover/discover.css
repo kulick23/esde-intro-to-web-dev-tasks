@@ -1,0 +1,23 @@
+
+.discoverblock{
+  position: absolute;
+  left: 100px;
+  top: 30%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  line-height: 0;
+  gap: 50px;
+align-items: center;
+}
+.discover__button{
+display: flex;
+gap: 50px;
+}
+.discover__img{
+  position: absolute;
+  top: 30%;
+  height: 300px;
+right: 100px;
+
+}

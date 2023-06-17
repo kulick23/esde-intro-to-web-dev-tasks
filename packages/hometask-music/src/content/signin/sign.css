@@ -1,0 +1,28 @@
+.sign {
+  position: absolute;
+  left: 100px;
+  top: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+.sign__box{
+  display: grid; 
+  grid-template-columns: 0.5fr 1.5fr; 
+  grid-template-rows: 1fr 1fr 1fr; 
+  background: #5E659D;
+  border-radius: 20px;
+  width: 450px;
+  height: 250px;
+  align-items: center;
+}
+.sign__text{
+position: relative;
+left: 15px;
+}
+.sign__input{
+  position: relative;
+  left: 10px;
+}
+

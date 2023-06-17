@@ -16,7 +16,34 @@
 html {
   /* Apply download font "Poppins" by setting that on the first position in a row */
   font-family: "Poppins", sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   background-color: var(--main-bg-color);
   color: var(--color-white);
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+li{
+  list-style-type: none;
+}
+h1{
+  font-size: 70px;
+  font-weight: 400;
+}
+button{
+  background: #5E659D;
+border-radius: 10px;
+color: white;
+border: none;
+cursor: pointer;
+height: 45px;
+width: 150px;
+}
+input{
+  border: 4px solid #DBAC74;
+border-radius: 20px;
+height: 35px;
+width: 300px;
 }
