@@ -9,6 +9,10 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
     integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+/>
 
   <link rel="stylesheet" href="./styles/style.css" />
 </head>
@@ -55,6 +59,22 @@
         </div>
       </div>
       <content class="app__content">
+        <h2 class="swipper__heading">Our Latest colour collection 2021</h2>
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="./assets/images/clour-01.png" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/images/clour-02.png" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/images/clour-03.png" />
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      
         <div class="content__statis">
           <div class="statis__info">
             <h2 class="statis__heading">Good headphones and loud music is all you need</h2>
@@ -218,6 +238,8 @@
   </div>
   </div>
   </div>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script src="./index.js"></script>
 </body>
 
 </html>
