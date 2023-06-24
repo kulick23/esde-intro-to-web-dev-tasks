@@ -32,17 +32,20 @@ button {
   border: none;
   cursor: pointer;
 }
+
 li {
-	list-style-type: none;
+  list-style-type: none;
 }
-a{
+
+a {
   color: #ffffff;
   text-decoration: none;
   font-family: "Rubik", sans-serif;
-  
+
 }
+
 /* this 3 styles was import from swiper js.com */
-.swiper {  
+.swiper {
   width: 100%;
   padding-top: 50px;
   padding-bottom: 50px;
@@ -73,18 +76,21 @@ a{
   justify-content: space-between;
   align-items: center;
 }
+
 .app__menu {
-	position: absolute;
-	top: 15vh;
-	left: 0;
-	padding: 15px;
-	transition: transform 0.5s; 
+  position: absolute;
+  top: 15vh;
+  left: 0;
+  padding: 15px;
+  transition: transform 0.5s;
   transform: translateX(-200%);
   width: 15%;
 }
+
 .app__menu.active {
-	transform: translateX(0);
+  transform: translateX(0);
 }
+
 .app__Allcontent {
   position: relative;
   top: 5%;
@@ -202,10 +208,11 @@ a{
   flex-direction: column;
   gap: 5vh;
 }
-.swipper__heading{
+
+.swipper__heading {
   align-self: center;
   font-weight: 700;
-    font-size: 5vh;
+  font-size: 5vh;
 }
 
 .content__statis {
@@ -570,6 +577,7 @@ a{
 .footer__block {
   display: flex;
   justify-content: space-between;
+  width: 70vw;
 }
 
 .footer__back {
@@ -580,10 +588,25 @@ a{
   background: linear-gradient(74.79deg, #FF9292 -7.33%, #DE5150 90.21%);
 }
 
+.block__social {
+  display: flex;
+  gap: 10%;
+  align-items: center;
+}
+
+.block__social--active {
+  display: none;
+}
+
 @media screen and (min-width: 768px) {
-  a{
+  a {
     font-size: 30px;
   }
+
+  .block__social--active {
+    display: flex;
+  }
+
   .header__button--burger {
     width: 5%;
   }
