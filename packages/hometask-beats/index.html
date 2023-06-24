@@ -1,22 +1,223 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
 
-    <title>Beats</title>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Beats</title>
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <link rel="stylesheet" href="./styles/style.css" />
-  </head>
+  <link rel="stylesheet" href="./styles/style.css" />
+</head>
 
-  <body>
-    <div class="app">Add your content here inside that tag</div>
-  </body>
+<body>
+  <div class="app">
+    <div class="app__Allcontent">
+      <header class="app__header">
+        <img class="header__logo" src="./assets/icons/logo.svg">
+        <div class="header__nav--icons">
+          <a href="#">
+            <div class="icons__item">
+              <img class="item__image" src="./assets/icons/search.svg">
+            </div>
+          </a>
+          <div class="item__line"></div>
+          <a href="#">
+            <div class="icons__item">
+              <img class="item__image" src="./assets/icons/box.svg">
+            </div>
+          </a>
+          <div class="item__line"></div>
+          <a href="#">
+            <div class="icons__item">
+              <img class="item__image" src="./assets/icons/user.svg">
+            </div>
+          </a>
+        </div>
+        <button class="header__button--burger"></button>
+      </header>
+      <div class="main__content">
+        <img class="content__image" src="./assets/images/hero.png">
+        <div class="content__description">
+          <div>
+            <h3 class="description__info1">Hear it. Feel it</h3>
+            <h1 class="description__info2">Move with the music</h1>
+          </div>
+          <div class="description__cost">
+            <h1 class="cost">$ 435</h1>
+            <div class="cost__line"></div>
+            <h3 class="cost__crossed">$ 465</h3>
+          </div>
+          <button class="description__button">BUY NOW</button>
+        </div>
+      </div>
+      <content class="app__content">
+        <div class="content__statis">
+          <div class="statis__info">
+            <h2 class="statis__heading">Good headphones and loud music is all you need</h2>
+            <div class="statis__description">
+              <div class="description__block">
+                <div class="description__border"></div>
+                <img class="description__image" src="./assets/icons/battery.svg">
+              </div>
+              <div>
+                <h2 class="description__heading">Battery</h2>
+                <p class="description__text">Battery 6.2V-AAC codec</p>
+                <a href="#" class="description__text description__text--red">Learn More</a>
+              </div>
+            </div>
+            <div class="statis__description">
+              <div class="description__block">
+                <div class="description__border"></div>
+                <img class="description__image" src="./assets/icons/bluetooth.svg">
+              </div>
+              <div>
+                <h2 class="description__heading">Bluetooth</h2>
+                <p class="description__text">Battery 6.2V-AAC codec</p>
+                <a href="#" class="description__text description__text--red">Learn More</a>
+              </div>
+            </div>
+            <div class="statis__description">
+              <div class="description__block">
+                <div class="description__border"></div>
+                <img class="description__image" src="./assets/icons/microphone.svg">
+              </div>
+              <div>
+                <h2 class="description__heading">Microphone</h2>
+                <p class="description__text">Battery 6.2V-AAC codec</p>
+                <a href="#" class="description__text description__text--red">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <img class="content__image content__image--position" src="./assets/images/feature.png">
+        </div>
+        <div class="content__product">
+          <div class="product__title">
+            <h2 class="description__heading title__heading">Our Latest Product</h2>
+            <p class="description__text title__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+              facilisis nunc ipsum aliquam, ante. </p>
+          </div>
+          <div class="product__block">
+            <div class="product__item product__item--first">
+              <div class="product__photo product__photo--first">
+                <a href="#" class="photo__block photo__block--first-icon">
+                  <img class="photo__icon" src="./assets/icons/shopping-cart.svg">
+                </a>
+                <img class="product__image" src="./assets/images/product-03.png">
+              </div>
+              <div class="product__rating">
+                <div class="rating__block">
+                  <p class="product__stars">&#9733; &#9733; &#9733; &#9733; &#9733;</p>
+                  <p class="rating__text">Blue Headphone</p>
+                </div>
+                <div class="rating__info">
+                  <p class="info__text">4.50</p>
+                  <p class="info__cost">$256</p>
+                </div>
+              </div>
+            </div>
+            <div class="product__item">
+              <div class="product__photo product__photo--second">
+                <a href="#" class="photo__block photo__block--second-icon">
+                  <img class="photo__icon" src="./assets/icons/shopping-cart.svg">
+                </a>
+                <img class="product__image" src="./assets/images/product-02.png">
+              </div>
+              <div class="product__rating">
+                <div class="rating__block">
+                  <p class="product__stars">&#9733; &#9733; &#9733; &#9733; &#9733;</p>
+                  <p class="rating__text">Blue Headphone</p>
+                </div>
+                <div class="rating__info">
+                  <p class="info__text">4.50</p>
+                  <p class="info__cost">$235</p>
+                </div>
+              </div>
+            </div>
+            <div class="product__item product__item--third">
+              <div class="product__photo product__photo--third">
+                <a href="#" class="photo__block photo__block--third-icon">
+                  <img class="photo__icon" src="./assets/icons/shopping-cart.svg">
+                </a>
+                <img class="product__image" src="./assets/images/product-01.png">
+              </div>
+              <div class="product__rating">
+                <div class="rating__block">
+                  <p class="product__stars">&#9733; &#9733; &#9733; &#9733; &#9733;</p>
+                  <p class="rating__text">Blue Headphone</p>
+                </div>
+                <div class="rating__info">
+                  <p class="info__text">4.50</p>
+                  <p class="info__cost">$245</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="content__box">
+          <img class="box__image" src="./assets/images/boxing.png">
+          <div class="box__info">
+            <h2 class="description__heading info__heading">Whatever you get in the box</h2>
+            <div class="info__params">
+              <div class="params__item">
+                <img class="item__photo" src="./assets/icons/arrow-in-circle.svg">
+                <p class="item__text">5A Charger</p>
+              </div>
+              <div class="params__item">
+                <img class="item__photo" src="./assets/icons/arrow-in-circle.svg">
+                <p class="item__text">Extra battery</p>
+              </div>
+              <div class="params__item">
+                <img class="item__photo" src="./assets/icons/arrow-in-circle.svg">
+                <p class="item__text">Sophisticated bag</p>
+              </div>
+              <div class="params__item">
+                <img class="item__photo" src="./assets/icons/arrow-in-circle.svg">
+                <p class="item__text">User manual guide</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="content__subscribe">
+          <div class="product__title">
+            <h2 class="description__heading subscribe__heading">Subscribe</h2>
+            <p class="subscribe__text">Lorem ipsum dolor sit amet, consectetur </p>
+          </div>
+          <div class="subscribe__input">
+            <input class="input__text" type="text" value="Enter Your email address">
+            <button class="input__button">Subscribe</button>
+          </div>
+        </div>
+      </content>
+
+      <footer class="app__footer">
+        <div class="footer__block">
+          <img class="header__logo" src="./assets/icons/logo.svg">
+          <a href="#">
+            <div class="icons__item">
+              <img class="item__image" src="./assets/icons/instagram.svg">
+            </div>
+          </a>
+          <a href="#">
+            <div class="icons__item">
+              <img class="item__image" src="./assets/icons/twitter.svg">
+            </div>
+          </a>
+          <a href="#">
+            <div class="icons__item">
+              <img class="item__image" src="./assets/icons/facebook.svg">
+            </div>
+          </a>
+        </div>
+      </footer>
+      <div class="footer__back"></div>
+    </div>
+  </div>
+  </div>
+  </div>
+</body>
+
 </html>
