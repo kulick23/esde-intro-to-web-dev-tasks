@@ -689,7 +689,11 @@ a {
     height: 100%;
   }
 
-
+  .statis__description {
+    gap: 0px;
+    justify-content:left;
+  }
+  
   .description__heading {
     align-self: start;
     font-weight: 700;
