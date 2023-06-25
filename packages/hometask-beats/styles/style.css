@@ -79,12 +79,19 @@ a {
 
 .app__menu {
   position: absolute;
-  top: 15vh;
-  left: 0;
+  left: 0%;
   padding: 15px;
   transition: transform 0.5s;
   transform: translateX(-200%);
   width: 15%;
+  background-color: black;
+  opacity: 40%;
+  height: 97vh;
+}
+.menu__nav{
+  position: absolute;
+  top: 15vh;
+  left: 0%;
 }
 
 .app__menu.active {
